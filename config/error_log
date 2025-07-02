@@ -1,0 +1,12 @@
+[28-Mar-2025 05:26:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/romakyyy/ukfarm.syedfarhan.in/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/romakyyy/ukfarm.syedfarhan.in/config/app.php on line 16
+[31-Mar-2025 13:07:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/romakyyy/ukfarm.syedfarhan.in/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/romakyyy/ukfarm.syedfarhan.in/config/app.php on line 16
+[31-Mar-2025 23:33:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/romakyyy/ukfarm.syedfarhan.in/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/romakyyy/ukfarm.syedfarhan.in/config/app.php on line 16

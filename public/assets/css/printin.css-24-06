@@ -1,0 +1,940 @@
+@page {
+    size: 21cm 29.7cm;
+    margin: 0.5cm 0 0.5cm 0;
+    /* change the margins as you want them to be. */
+}
+.print-margin {
+    margin-left: 34%;
+}
+.print_button {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #6658dd;
+    border-color: #6658dd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.875rem;
+    border-radius: 0.15rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-decoration: none;
+}
+@media print {
+    .printBody {
+        float: left;
+        width: 21cm;
+        margin: 0cm;
+        padding: 0cm;
+    }
+    .print_button {
+        display: none;
+    }
+
+    .prninside {
+        float: left;
+        width: 21cm;
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.35cm;
+        
+    }
+
+    p {
+        margin: 0px;
+
+        line-height: 0.5cm;
+    }
+
+    /*.prninside .cmpnyhed{
+			float: left;
+			width: 21cm;
+			background-color: #666;
+			text-align: center;
+			padding: 0.05cm 0cm;
+		}*/
+
+    .prninside .cmpnyhed {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 21cm;
+        background-color: #666;
+        text-align: center;
+        padding: 0.05cm 0cm;
+    }
+
+    .prninside .cmpnyhed p {
+        color: #fff;
+
+        font-size: 0.4cm;
+
+        
+
+        letter-spacing: 0.2cm;
+    }
+
+    .main .header {
+        position: relative;
+
+        float: left;
+
+        width: 19cm;
+    }
+
+    .main .header .logo {
+        float: left;
+
+        width: 3.5cm;
+    }
+
+    .main .logo img {
+        float: left;
+
+        width: 3.5cm;
+    }
+
+    /*.main .header .hdname{
+
+			float: left;
+
+			width: calc(19cm - 3.5cm);
+
+			text-align: center;
+		}*/
+
+    .main .header .hdname {
+        position: absolute;
+
+        top: 0;
+
+        left: 0;
+
+        width: calc(19cm);
+
+        text-align: center;
+    }
+
+    .main .header .hdname h1 {
+        font-size: 0.75cm;
+
+        text-transform: uppercase;
+
+        color: #000;
+
+        margin: 0.7cm 0cm 0.4cm 0cm;
+    }
+
+    .esti-dtls {
+        float: left;
+
+        width: calc(19cm - 2px);
+
+        background-color: #eee;
+
+        border: 1px solid #999;
+
+        margin-top: 1cm;
+    }
+
+    .esti-dtls .estidtls-hed {
+        float: left;
+
+        width: calc(19cm - 2px);
+
+        border-bottom: 1px solid #999;
+    }
+
+    .esti-dtls .estidtls-hed .estino {
+        float: left;
+
+        width: calc(14cm - 1px);
+
+        padding: 0.25cm;
+    }
+
+    .esti-dtls .estidtls-hed .estidt {
+        float: left;
+
+        width: calc(4cm - 1px);
+
+        padding: 0.25cm;
+    }
+
+    .esti-dtls .custdtls {
+        float: left;
+
+        width: calc(9cm - 2px);
+
+        padding: 0.25cm;
+
+        border-right: 1px solid #999;
+    }
+
+    .esti-dtls .exedtls {
+        float: left;
+
+        width: calc(9cm - 1px);
+
+        padding: 0.25cm;
+    }
+
+    .esti-dtls .custdtls label,
+    .esti-dtls .exedtls label {
+        float: left;
+
+        width: 100%;
+    }
+
+    .esti-dtls .custdtls p,
+    .esti-dtls .exedtls p {
+        float: left;
+
+        width: 100%;
+
+        min-height: 2.5cm;
+
+        margin-top: 0.1cm;
+    }
+
+    .cntnt {
+        float: left;
+
+        width: 100%;
+
+        margin: 0.5cm 0cm;
+    }
+
+    /**/
+
+    .estable {
+        float: left;
+
+        width: calc(19cm - 1px);
+
+        margin-bottom: 0.5cm;
+    }
+
+    .estable .table-hd {
+        display: flex;
+
+        float: left;
+
+        width: calc(19cm - 1px);
+    }
+
+    .estable .table-hd .table-th {
+        float: left;
+
+        padding: 0.25cm 0.15cm;
+
+        border: 1px solid #999;
+
+        border-right: 0px;
+
+        
+
+        text-transform: uppercase;
+    }
+
+    .estable .table-hd .table-th:last-child {
+        border-right: 1px solid #999;
+    }
+
+    .estable .table-hd .table-th span {
+        font-size: 0.25cm;
+    }
+
+    .estable .tone {
+        width: calc(0.9cm - 0.3cm);
+    }
+    .estable .ttwo {
+        width: calc(3cm - 0.3cm);
+    }
+    .estable .tthree {
+        width: calc(2.2cm - 0.3cm);
+    }
+    .estable .tfour {
+        width: calc(1.5cm - 0.3cm);
+    }
+    .estable .tfive {
+        width: calc(2.2cm - 0.3cm);
+    }
+    .estable .tsix {
+        width: calc(2cm - 0.3cm);
+    }
+    .estable .tseven {
+        width: calc(1.45cm - 0.3cm);
+    }
+    .estable .teight {
+        width: calc(1.45cm - 0.3cm);
+    }
+    .estable .tnine {
+        width: calc(2.25cm - 0.3cm);
+    }
+    .estable .tten {
+        width: calc(1.8cm - 0.3cm);
+    }
+
+    .estable .tonefull {
+        width: calc(12.15cm - 0.3cm);
+    }
+    .estable .tsixseven {
+        width: calc(4.47cm - 0.3cm);
+    }
+
+    .estable .table-bd {
+        float: left;
+
+        width: calc(19cm - 1px);
+    }
+
+    .estable .table-tr {
+        display: flex;
+
+        float: left;
+
+        width: calc(19cm - 1px);
+
+        margin-top: -1px;
+        
+        page-break-inside: avoid;
+    }
+
+    .estable .table-tr .table-td {
+        float: left;
+
+        padding: 0.25cm 0.15cm;
+
+        border: 1px solid #999;
+
+        border-right: 0px;
+    }
+
+    .estable .table-tr .table-td:last-child {
+        border-right: 1px solid #999;
+    }
+
+    .estable .table-tr .table-td figure {
+        float: left;
+
+        width: 100%;
+
+        margin: 0px;
+
+        margin-top: 0.25cm;
+    }
+
+    .estable .table-tr .table-td figure img {
+        float: left;
+
+        width: auto;
+
+        height: auto;
+
+        max-width: 1.5cm;
+
+        max-height: 1.5cm;
+    }
+
+    .estable .extra-ft {
+        float: left;
+
+        width: calc(19cm - 1px);
+    }
+
+    .estable .extra-ft .table-td {
+        padding: 0.2cm 0.15cm;
+    }
+
+    .estable .extra-ft .grand,
+    .estable .extra-ft .grandval {
+        
+    }
+
+    /**/
+
+    .termssec {
+        float: left;
+
+        width: 19cm;
+    }
+
+    .termssec h2 {
+        font-size: 0.35cm;
+
+        
+    }
+
+    .termssec .termscntnt {
+        float: left;
+
+        width: 19cm;
+
+        padding: 0.5cm 0cm;
+
+        border-top: 1px solid #999;
+
+        border-bottom: 1px solid #999;
+    }
+
+    /**/
+
+    .signsec {
+        float: left;
+
+        width: 19cm;
+
+        text-align: right;
+    }
+
+    .signsec h4 {
+        font-size: 0.35cm;
+
+        
+
+        margin-right: 1cm;
+    }
+
+    /**/
+
+    .footer {
+        float: left;
+
+        width: 19cm;
+
+        border-top: 1px dotted #999;
+
+        border-bottom: 1px dotted #999;
+    }
+
+    .footer .footlft {
+        float: left;
+
+        width: 13cm;
+
+        padding: 0.15cm 0cm;
+    }
+
+    .footer .footlft p {
+        float: left;
+
+        padding-right: 0.2cm;
+
+        border-right: 1px solid #999;
+
+        line-height: 0.4cm;
+    }
+
+    .footer .footrgt {
+        float: left;
+
+        width: 6cm;
+
+        padding: 0.15cm 0cm;
+
+        padding-top: 0.2cm;
+
+        align-items: center;
+
+        align-content: flex-end;
+
+        text-align: right;
+    }
+
+    .footer .footrgt .socialogo {
+        display: inline-block;
+
+        width: 0.65cm;
+
+        height: 0.65cm;
+
+        border-radius: 0.5cm;
+
+        background-position: center;
+
+        background-size: 75%;
+
+        background-repeat: no-repeat;
+
+        border: 1px solid #666;
+
+        margin: 0cm 0.05cm;
+    }
+
+    .footer .footrgt .textname {
+        display: inline-block;
+
+        line-height: 0.65cm;
+
+        float: right;
+
+        margin-left: 0.2cm;
+    }
+}
+
+/*******************/
+
+.printBody {
+    float: left;
+    width: 21cm;
+    margin: 0cm;
+    padding: 0cm;
+}
+
+.prninside {
+    float: left;
+    width: 21cm;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.28cm;
+    
+}
+
+p {
+    margin: 0px;
+
+    line-height: 0.5cm;
+}
+
+/*.prninside .cmpnyhed{
+			float: left;
+			width: 21cm;
+			background-color: #666;
+			text-align: center;
+			padding: 0.05cm 0cm;
+		}*/
+
+.prninside .cmpnyhed {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 21cm;
+    background-color: #666;
+    text-align: center;
+    padding: 0.05cm 0cm;
+}
+
+.prninside .cmpnyhed p {
+    color: #fff;
+
+    font-size: 0.4cm;
+
+    
+
+    letter-spacing: 0.2cm;
+}
+
+.main {
+    float: left;
+
+    width: 19cm;
+
+    padding: 1cm 1cm 1cm 1cm;
+    
+    color:#000 !important;
+
+    font-weight: 700 !important;
+}
+
+.main .header {
+    position: relative;
+
+    float: left;
+
+    width: 19cm;
+}
+
+.main .header .logo {
+    float: left;
+
+    width: 3.5cm;
+}
+
+.main .logo img {
+    float: left;
+
+    width: 3.5cm;
+}
+
+/*.main .header .hdname{
+
+			float: left;
+
+			width: calc(19cm - 3.5cm);
+
+			text-align: center;
+		}*/
+
+.main .header .hdname {
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: calc(19cm);
+
+    text-align: center;
+}
+
+.main .header .hdname h1 {
+    font-size: 0.75cm;
+
+    text-transform: uppercase;
+
+    color: #000;
+
+    margin: 0.7cm 0cm 0.4cm 0cm;
+}
+
+.esti-dtls {
+    float: left;
+
+    width: calc(19cm - 2px);
+
+    background-color: #eee;
+
+    border: 1px solid #999;
+
+    margin-top: 1cm;
+}
+
+.esti-dtls .estidtls-hed {
+    float: left;
+
+    width: calc(19cm - 2px);
+
+    border-bottom: 1px solid #999;
+}
+
+.esti-dtls .estidtls-hed .estino {
+    float: left;
+
+    width: calc(12cm - 1px);
+
+    padding: 0.25cm;
+}
+
+.esti-dtls .estidtls-hed .estidt {
+    float: left;
+
+    width: calc(6cm - 1px);
+
+    padding: 0.25cm;
+}
+
+.esti-dtls .custdtls {
+    float: left;
+
+    width: calc(9cm - 2px);
+
+    padding: 0.25cm;
+
+    border-right: 1px solid #999;
+}
+
+.esti-dtls .exedtls {
+    float: left;
+
+    width: calc(9cm - 1px);
+
+    padding: 0.25cm;
+}
+
+.esti-dtls .custdtls label,
+.esti-dtls .exedtls label {
+    float: left;
+
+    width: 100%;
+}
+
+.esti-dtls .custdtls p,
+.esti-dtls .exedtls p {
+    float: left;
+
+    width: 100%;
+
+    margin-top: 0.1cm;
+}
+
+.cntnt {
+    float: left;
+
+    width: 100%;
+
+    margin: 0.5cm 0cm;
+}
+
+/**/
+
+.estable {
+    float: left;
+
+    width: calc(19cm - 1px);
+
+    margin-bottom: 0.5cm;
+}
+
+.estable .table-hd {
+    display: flex;
+
+    float: left;
+
+    width: calc(19cm - 1px);
+}
+
+.estable .table-hd .table-th {
+    float: left;
+
+    padding: 0.25cm 0.15cm;
+
+    border: 1px solid #999;
+
+    border-right: 0px;
+
+    text-transform: uppercase;
+}
+
+.estable .table-hd .table-th:last-child {
+    border-right: 1px solid #999;
+}
+
+.estable .tone {
+    width: calc(0.9cm - 0.3cm);
+}
+.estable .ttwo {
+    width: calc(4cm - 0.3cm);
+}
+.estable .tthree {
+    width: calc(2.6cm - 0.3cm);
+}
+.estable .tfour {
+    width: calc(1.5cm - 0.3cm);
+}
+.estable .tfive {
+    width: calc(1.4cm - 0.3cm);
+}
+.estable .tsix {
+    width: calc(1.4cm - 0.3cm);
+}
+.estable .tseven {
+    width: calc(1.45cm - 0.3cm);
+}
+.estable .teight {
+    width: calc(1.45cm - 0.3cm);
+}
+.estable .tnine {
+    width: calc(2.25cm - 0.3cm);
+}
+.estable .tten {
+    width: calc(1.8cm - 0.3cm);
+}
+
+.estable .tonefull {
+    width: calc(12.15cm - 0.3cm);
+}
+.estable .tsixseven {
+    width: calc(4.47cm - 0.3cm);
+}
+
+.estable .table-bd {
+    float: left;
+
+    width: calc(19cm - 1px);
+}
+
+.estable .table-tr {
+    display: flex;
+
+    float: left;
+
+    width: calc(19cm - 1px);
+
+    margin-top: -1px;
+}
+
+.estable .table-tr .table-td {
+    float: left;
+
+    padding: 0.25cm 0.15cm;
+
+    border: 1px solid #999;
+
+    border-right: 0px;
+}
+
+.estable .table-tr .table-td:last-child {
+    border-right: 1px solid #999;
+}
+
+.estable .table-tr .table-td figure {
+    float: left;
+
+    width: 100%;
+
+    margin: 0px;
+
+    margin-top: 0.25cm;
+}
+
+.estable .table-tr .table-td figure img {
+    float: left;
+
+    width: auto;
+
+    height: auto;
+
+    max-width: 1.5cm;
+
+    max-height: 1.5cm;
+}
+
+.estable .extra-ft {
+    float: left;
+
+    width: calc(19cm - 1px);
+}
+
+.estable .extra-ft .table-td {
+    padding: 0.2cm 0.15cm;
+}
+
+.estable .extra-ft .grand,
+.estable .extra-ft .grandval {
+    
+}
+
+/**/
+
+.termssec {
+    float: left;
+
+    width: 19cm;
+}
+
+.termssec h2 {
+    font-size: 0.35cm;
+
+    
+}
+
+.termssec .termscntnt {
+    float: left;
+
+    width: 19cm;
+
+    padding: 0.5cm 0cm;
+
+    border-top: 1px solid #999;
+
+    border-bottom: 1px solid #999;
+}
+
+/**/
+
+.signsec {
+    float: left;
+
+    width: 19cm;
+
+    text-align: right;
+}
+
+.signsec h4 {
+    font-size: 0.35cm;
+
+    
+
+    margin-right: 1cm;
+}
+
+/**/
+
+.footer {
+    float: left;
+
+    width: 19cm;
+
+    border-top: 1px dotted #999;
+
+    border-bottom: 1px dotted #999;
+}
+
+.footer .footlft {
+    float: left;
+
+    width: 13cm;
+
+    padding: 0.15cm 0cm;
+}
+
+.footer .footlft p {
+    float: left;
+
+    padding-right: 0.2cm;
+
+    border-right: 1px solid #999;
+
+    line-height: 0.4cm;
+}
+
+.footer .footrgt {
+    float: left;
+
+    width: 6cm;
+
+    padding: 0.15cm 0cm;
+
+    padding-top: 0.2cm;
+
+    align-items: center;
+
+    align-content: flex-end;
+
+    text-align: right;
+}
+
+.footer .footrgt .socialogo {
+    display: inline-block;
+
+    width: 0.65cm;
+
+    height: 0.65cm;
+
+    border-radius: 0.5cm;
+
+    background-position: center;
+
+    background-size: 75%;
+
+    background-repeat: no-repeat;
+
+    border: 1px solid #666;
+
+    margin: 0cm 0.05cm;
+}
+
+.footer .footrgt .textname {
+    display: inline-block;
+
+    line-height: 0.65cm;
+
+    float: right;
+
+    margin-left: 0.2cm;
+}
+.wrap {
+    /* white-space: pre-wrap;      CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}

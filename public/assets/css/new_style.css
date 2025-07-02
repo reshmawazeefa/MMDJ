@@ -1,0 +1,3951 @@
+ /* scrollbar */
+ ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  /*  */
+  
+  label{
+    font-size: 13px!important;
+    }
+.select2-container .select2-selection--single{
+    height: calc(1em + 0.8rem + .05px)!important;
+    font-size: 13px!important;
+    }
+.form-control {
+    font-size: 13px!important;
+    height: calc(1em + 0.8rem + .05px);
+    padding: 0rem 0.3rem!important;
+    }
+.form-control, .select2-selection{
+    margin-bottom: 3%; 
+    }
+.doc_listSelect{
+    margin-bottom: 0%!important;
+    }
+.doc_listSelect, .doc_listSelect:hover,.doc_listSelect:focus {
+    padding: 0rem 0.9rem;
+    background: #f7f7f7;
+    border-left: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+textarea{
+     height: 40px!important;
+    }
+.new-table {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.page-title-box .page-title {
+    margin: -14px 0px!important;
+    font-size: 15px!important;
+    font-family: "Nunito", sans-serif;
+}
+/* .table > :not(caption) > * > * {
+    padding: 0.5rem 0.5rem;
+} */
+.page-item.active .page-link {
+    border-radius: 30px !important;
+    background-color: #00295f!important;
+    border-color: #00295f!important;
+}
+.page-item .page-link:hover {
+    border-radius: 30px !important;
+    z-index: 2;
+    color: #323a46;
+    background-color: #f7f7f7;
+}
+.page-item .page-link{
+    border-radius: 30px !important;
+    margin: 0 6px;
+    border: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Nunito", sans-serif!important;
+}
+
+.body-style h4{
+    /* padding-bottom:2%; */
+    /*
+    background-color: #fff;
+    width: 100%;
+    position: fixed; */
+    font-family: "Nunito", sans-serif!important;
+}
+.card {
+    box-shadow: 0 0.75rem 6rem rgba(56, 65, 74, 0.03);
+    margin-bottom: 0px;
+}
+.footer{
+    display:none;
+}
+/* .content-page{
+    height: 88vh !important; 
+    overflow-x: hidden !important; 
+} */
+
+.content-page{
+    height: 85.5vh !important; 
+    overflow-x: hidden !important; 
+}
+
+
+
+.body-style {
+    height: calc(95vh - 100px) !important;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    padding: .8rem 1.5rem !important;
+}
+.body-style2{
+    height: calc(74vh - 100px) !important;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        padding: .8rem 1.5rem !important;
+}
+.body-style3{
+    height: calc(55vh - 100px) !important;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        padding: .8rem 1.5rem !important
+}
+.body-style4{
+    height: calc(64vh - 100px) !important;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        padding: .8rem 1.5rem !important;
+}
+
+.body-stylespl{
+    height: calc(85vh - 100px) !important;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        padding: .8rem 1.5rem !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    line-height: 27px!important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: -4px!important;
+}
+#basic-addon1 {
+    /* background: #6658dd; */
+    /* color: #fff; */
+    padding: 0px 0rem !important;
+    height: 26px !important;
+    font-size: 12px;
+
+}
+.doc_listSelect, .doc_listSelect:hover, .doc_listSelect:focus {
+    padding: .05rem 0.9rem!important;
+}
+.col-form-label {
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+}
+.qutt-bttn{
+    display: block;
+    padding: 3px 2px!important;
+    font-size: 13px!important;
+}
+div.dataTables_length select {
+    width: 58px!important;
+}
+.table.dataTable.nowrap th, table.dataTable.nowrap td, #basic-datatable_info{
+    font-size: 13px!important;
+}
+.text-dark{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1.5rem!important;
+}
+.upload-img h4{
+    font-family: "Nunito", sans-serif !important;
+}
+#photo{
+    padding:2% 0% 4% 0%;
+}
+#image-preview{
+    padding:4% 0%;
+}
+#sidebar-menu .menu-title{
+    font-size: 0.9rem!important;
+}
+#side-menu li a{
+    font-size: 14px!important;
+    font-family: "Nunito", sans-serif !important;
+}
+.tableMStyle #server-datatable_wrapper .row:nth-child(1),
+.tableMStyle #basic-datatable_wrapper .row:nth-child(1){
+    z-index: 0;
+    position: absolute;
+    width: 99.3%;
+    top: -0.5%;
+    background: #ffffff;
+    padding: 1%;
+    margin-left: -25px;
+    border-bottom:1px solid #f2f3f5;
+}
+.tableMStyle .row:nth-child(1) .col-sm-12{
+    margin-top:10px;
+}
+
+.tableMStyle .row:nth-child(2){
+    z-index:auto;
+}
+.tableMStyle .dataTables_filter{
+        position: absolute;
+        left: 200px;
+}
+
+.without-button .dataTables_filter{
+        position: relative;
+        left: auto;
+    }
+
+
+
+
+.tableMStyle .row:nth-child(2) thead{
+    position: sticky;
+    background: #6658dd;
+    color: #FFF;
+    top: 61px;
+    z-index: 1;
+    padding: 50px;
+    font-size: 20px;
+}
+table.dataTable {
+    clear: both;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+}
+.table-m table.dataTable {
+    clear: both;
+    margin-top: 0px !important;
+}
+.table-spcl table.dataTable {
+    clear: both;
+    margin-top: 10px !important;
+}
+.table-spcl2 table.dataTable, .table-spcl3 table.dataTable {
+    clear: both;
+    margin-top: 0px !important;
+}
+.table-spcl3 table.dataTable {
+    clear: both;
+    margin-top: -0px !important;
+    margin-bottom: 78px !important;
+}
+.table-spcl4 table.dataTable {
+    clear: both;
+    margin-top: -0px !important;
+    margin-bottom: 0px !important;
+}
+
+
+.table-spcl .row:nth-child(2) thead{
+    top: 59px!important;
+}
+
+.table-spcl2 .row:nth-child(2) thead{
+    top: 45px!important;
+}
+.table-spcl4 .row:nth-child(2) thead{
+    top: 54px;
+}
+.partnerStyle .row:nth-child(1){
+    padding:1.46%!important;
+}
+.userStyle .row:nth-child(1){
+    padding:1%!important;
+}
+
+.productMStyle #server-datatable_wrapper .row:nth-child(1){
+    position: sticky;
+    background: #FFF;
+    border-bottom:1px dashed #f2f3f5;
+    color: #000;
+    top: -16px;
+    z-index: 1;
+    padding: 14px 14px 10px 14px;
+    font-size: 20px;
+}
+.purchaseOrder #basic-datatable_wrapper .row:nth-child(1){
+    position: sticky;
+    background: #FFF;
+    border-bottom:1px dashed #f2f3f5;
+    color: #000;
+    top: -16px;
+    z-index: 1;
+    padding: 14px 14px 10px 14px;
+    font-size: 20px;
+}
+.purchaseOrder .row:nth-child(2) thead{
+    position: sticky;
+    background: #6658dd;
+    --bs-table-bg: #6658dd;
+    color: #FFF;
+    top:58px;
+    z-index: 1;
+}
+.purchaseOrder #Paris thead{
+    position: sticky;
+    background-color: #6658dd!important;
+    --bs-table-bg: #6658dd;
+    color: #FFF;
+    top:18px;
+    z-index: 1;
+}
+
+
+.productMStyle #basic-datatable_wrapper .row:nth-child(1){
+    position: sticky;
+    background: #FFF;
+    border-bottom:1px dashed #f2f3f5;
+    color: #000;
+    top: -16px;
+    z-index: 1;
+    padding: 14px 14px 10px 14px;
+    font-size: 20px;
+}
+.page-item.active .page-link{
+    z-index: 0 !important;
+}
+.attrOnly #basic-datatable_wrapper .row:nth-child(1){
+    padding-top:17px!important;
+}
+
+
+.dashed-borderStyle{
+    border-bottom:1px dashed #f2f3f5;
+}
+.salesMStyle #server-datatable_wrapper div:nth-child(1){
+    z-index: 2;
+    float: inline-end;
+    position: sticky;
+    top: -3px;
+    margin-top: 10px;
+}
+.salesMStyle #server-datatable_wrapper div:nth-child(2){
+    position: sticky;
+    background: #FFF;
+    border-bottom:1px dashed #f2f3f5;
+    color: #000;
+    top: -16px;
+    z-index: 1;
+    padding: 14px 14px 10px 14px;
+    font-size: 20px;
+}
+/* .salesMStyle div:nth-child(2) thead {
+    position: sticky;
+    background: #6658dd;
+    color: #FFF;
+    top: 45px;
+    z-index: 1;
+    margin-top:-25px;
+} */
+.salesMStyle thead {
+    position: sticky;
+    background: #6658dd;
+    color: #FFF;
+    top: 45px;
+    z-index: 1;
+    margin-top:-25px;
+}
+
+.incoming-button thead,
+.neww thead,
+.purachaseorder-bttn thead
+{
+    position: sticky;
+    background: #6658dd;
+    color: #FFF;
+    top: 45px;
+    z-index: 1;
+    margin-top:-25px;
+}
+
+
+
+.salesMStyle #server-datatable_wrapper .dataTables_length{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.salesMStyle div:nth-child(2) tfoot
+{
+    position: absolute;
+    bottom: 48px;
+    width: 96%;
+    background: #FFF;
+    padding-bottom: 0px;
+    line-height: 16px;
+    z-index: 0;
+    border-bottom:1px solid transparent!important;
+}
+
+.salesorder-bttn div:nth-child(2) tfoot{
+    /* position: absolute; */
+    /* bottom: 48px; */
+    width: 100%;
+    /* background: #c06969!important; */
+    padding-bottom: 0px;
+    line-height: 16px;
+    border-bottom:1px solid transparent!important;
+}
+
+
+
+
+
+
+.salesMStyle div:nth-child(2) tfoot tr{
+    float: right;
+    border-style: none;
+    padding-right: 63px;
+}
+.salesMStyle div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 80px;
+}
+
+.salesRegisterStyle div:nth-child(2) tfoot tr {
+    float: right;
+    border-style: none;
+    padding-right: 35px;
+}
+/* .salesorder-bttn div:nth-child(2) tfoot tr {
+    float: right;
+    border-style: none;
+    padding-right: 35px;
+} */
+
+
+
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 85px;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(3){
+    padding-right: 82px;
+}
+
+.v-p div:nth-child(2) tfoot tr th:nth-child(3)
+{
+    padding-right: 0px;
+}
+.v-p div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 0px;
+}
+.v-p div:nth-child(2) tfoot tr {
+    float: right;
+    border-style: none;
+    padding-right: 10px;
+    /* margin-top: -6%; */
+}
+
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(4){
+    padding-right: 17px;
+}
+
+.stockRgisterStyle div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 68px;
+}
+
+table.dataTable > tbody > tr.child ul.dtr-details{
+    width:100%;
+}
+table.dataTable > tbody > tr.child ul.dtr-details > li {
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.5rem 0.5rem;
+    background-color: var(--bs-table-bg);
+}
+
+.navbar-custom{
+    z-index: 15!important;
+}
+
+
+#server-datatable .child ul li span:first-of-type::after {
+    content: " : ";
+}
+
+.tr-m #server-datatable .child ul li span:nth-child(2){
+    margin-left: 2px!important;
+}
+
+
+
+
+.productMStyle .row:nth-child(2) thead{
+    position: sticky;
+    background: #6658dd;
+    --bs-table-bg: #6658dd;
+    color: #FFF;
+    top:48px;
+    z-index: 1;
+}
+#basic-datatable_wrapper .row:nth-child(3),
+#server-datatable_wrapper .row:nth-child(3),
+.marble-pagination #server-datatable_wrapper #server-datatable_paginate
+{
+    position: absolute;
+    width: 97%;
+    bottom: 0%;
+    background: #FFF;
+    padding: 1%;
+}
+.invoiceMstyle #basic-datatable_wrapper .row:nth-child(3){
+ bottom:8.5dvh!important;
+}
+
+
+
+
+#basic_wrapper .row:nth-child(3){
+    position: absolute;
+    width: 98%;
+    bottom: 0%;
+    background: #FFF;
+    padding: 1%;
+}
+
+.details-control .mdi-plus-circle, .mdi-minus-circle{
+    cursor: pointer;
+        font-size: 16px!important;
+        color: #6658dd!important;
+    }
+.addUser{
+    position: absolute;
+    right: 30px;
+    top: 21px;
+    z-index: 1;
+}
+.noti-title h6{
+    font-family: "Nunito", sans-serif;
+}
+.borderStyleclosing{
+    border-bottom:1px solid #e7e7eb;
+}
+
+.error{
+    border-color: #f1556c!important;
+background-color: #a94f4f !important;
+position: absolute !important;
+    text-align: center;
+    top: 9px;
+    z-index: 20;
+    /* width: 59.5%; */
+    width:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* left: 320px; */
+    border-radius: 47px !important;
+	color: #ffffff!important;
+    border-color:transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.newStyle{
+    position: absolute !important;
+    text-align: center;
+    top: 9px;
+    z-index: 20;
+    /* width: 59.5%; */
+    width:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* left: 320px; */
+    border-radius: 47px !important;
+	color: #ffffff!important;
+    background-color: #4a7f8b !important;
+    border-color:transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.breadcrumb{
+    margin-right:3%!important;
+}
+.ma{
+    padding:0px!important;
+}
+.productDetailshead{
+    position: sticky;
+    background: #6658dd;
+    width: 100%;
+    padding: 3%;
+    top: 0px;
+    font-weight: 700;
+    margin: 0px;
+    font-size: 14px;
+    color:#FFF;
+    border:1px solid transparent;
+    z-index: 2;
+}
+#basic-datatable_paginate ul{
+    float:inline-end;
+    }
+
+    .incomingPayment  #basic-datatable_wrapper .row:nth-child(3)
+    {
+        position: absolute;
+    width: 99%;
+    bottom: 0%;
+    background: #fff;
+    padding: 1%;
+    margin-left: -3.5%;
+    }
+
+    #basic-datatable .child,
+    #basic-datatable .table, 
+    #server-datatable .child {
+        background-color: #f7f7fe;
+        padding-top: 2%;
+    }
+    #basic-datatable td[colspan="8"],
+    #basic-datatable td[colspan="6"],
+    #basic-datatable td[colspan="7"],
+    #server-datatable td[colspan="8"],
+    #server-datatable td[colspan="9"], 
+    #server-datatable td[colspan="5"],
+    #server-datatable td[colspan="7"]
+     {
+        padding: 0px;
+    }
+    table.dataTable > tbody > tr.child ul.dtr-details > li:first-child{
+        padding-top:auto!important;
+    }
+    #basic-datatable_wrapper #basic-datatable .table tr:last-child
+    {
+        border-bottom-width: 0px;
+        border:1px solid transparent;
+    }
+    #basic-datatable .table{
+        margin-bottom:0px!important;
+    }
+    .parsley-errors-list{
+        display:none;
+    }
+    
+    .parsley-errors-list {
+        /* background: red; */
+    padding: 1;
+    /* position: absolute; */
+    top: -23px;
+    /* left: 196px; */
+    font-size: 12px;
+    color: #ffffff;
+    /* background: #fff; */
+    /* padding: 11px 19px !important; */
+    z-index: 20;
+    /* width: 56.2%; */
+    /* height: 40px; */
+    text-align: left;
+    /* border-radius: 30px; */
+    }
+
+    /* datatable error-message hide css */
+    .new-table .parsley-errors-list{
+        display:none;
+    }
+    .modal-header #addPartModalLabel{
+    font-family: "Nunito", sans-serif!important;
+    font-size: 18px !important;
+    }
+    .balanceMstyle div:nth-child(2) tfoot tr th:nth-child(1){
+        text-align: left;
+        padding-right: 94px;
+    }
+    .balanceMstyle div:nth-child(2) tfoot tr th:nth-child(2){
+        text-align: left;
+        padding-right: 183px;
+    }
+    .balanceMstyle div:nth-child(2) tfoot tr th:nth-child(4){
+        text-align: left;
+        padding-right: 100px;
+    }
+    .balanceMstyle div:nth-child(2) tfoot tr th:nth-child(5){
+        text-align: left;
+        padding-right: 41px;
+    }
+    
+    .balanceDetailMstyle div:nth-child(2) tfoot tr th:nth-child(1){
+        text-align: left;
+        padding-right: 161px;
+    }
+    .balanceDetailMstyle div:nth-child(2) tfoot tr th:nth-child(2){
+        text-align: left;
+        padding-right: 0px;
+    }
+    .balanceDetailMstyle div:nth-child(2) tfoot tr th:nth-child(3){
+        text-align: left;
+        padding-right: 72px;
+    }
+    .balanceDetailMstyle div:nth-child(2) tfoot tr th:nth-child(4){
+        text-align: left;
+        padding-right: 4px;
+    } 
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        display:flex;
+    }
+
+
+
+
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(1){
+        text-align: left;
+        padding-right: 87px;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(2){
+        text-align: left;
+        padding-right: 52px;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(3){
+        text-align: left;
+        padding-right: 55px;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(4){
+        text-align: left;
+        padding-right: 49px;
+    }
+
+    .balanceMstyle div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+        justify-content: flex-start!important;
+    }
+
+    #products-submit .card-body .form-group #photo {
+        white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         max-width: 150px;
+    color: #FFF;
+       }
+
+
+       .btn-info2{
+        padding: 0.45rem 1.15rem!important;
+    }
+
+    .style-btn{
+        display: inline;
+    }
+
+
+    #basic-datatable_wrapper .row:nth-child(3), #server-datatable_wrapper .row:nth-child(3), .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 2%;
+    }
+    /* .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0%;
+    } */
+
+
+/*  */
+
+.table-m #server-datatable_wrapper .row:nth-child(3) {
+    bottom: 0vh;
+    width: 97.3%;
+    padding-bottom: 0%;
+}
+
+.button-height{
+    margin-top:3.5%;
+}
+.button-height .text-right{
+    float: inline-end;
+}
+
+.salesorder-bttn .dt-buttons{
+    z-index: 2;
+    float: inline-end;
+    position: sticky;
+    top: -29px;
+    margin-top: -5px;
+    padding-bottom: 1%;
+    margin-bottom: 0px;
+}
+
+.incoming-button .dt-buttons{
+    z-index: 0;
+    float: inline-end;
+    position: sticky;
+    top: -29px;
+    margin-top: -10px;
+    padding-bottom: 1%;
+}
+
+.purachaseorder-bttn .dt-buttons{
+    z-index: 2;
+    float: inline-end;
+    position: sticky;
+    top: -29px;
+    margin-top: -5px;
+    padding-bottom: 1%;
+    margin-bottom: 0px;
+}
+
+.salesorder-bttn #server-datatable_wrapper{
+    margin-top: 20px;
+}
+.incoming-button #server-datatable_wrapper{
+    margin-top: 20px;
+}
+
+
+
+.neww #server-datatable_paginate {
+    position: absolute;
+    bottom: 0vh;
+    width: 96.3%;
+    padding-bottom: 2%;
+}
+
+.purachaseorder-bttn #server-datatable_paginate {
+    position: absolute;
+    bottom: 0vh;
+    width: 96.3%;
+    padding-bottom: 2%;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc!important;
+}
+
+.income-paybuttn{
+    margin-top:2%;
+    margin-bottom: 12%;
+}
+
+.create-incomebtn{
+    margin-bottom: 7%;
+    margin-top:1%;
+}
+
+
+.order-detail-back{
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+}
+
+.h-view{
+    margin-top: 3%!important; 
+}
+
+.neww #server-datatable_wrapper div:nth-child(2),
+.incoming-button #server-datatable_wrapper div:nth-child(2){
+    position: sticky;
+    background: #FFF;
+    border-bottom: 1px dashed #f2f3f5;
+    color: #000;
+    top: -16px;
+    z-index: 1;
+    padding: 14px 14px 10px 14px;
+    font-size: 20px;
+}
+
+.navbar-custom .dropdown-toggle::after {
+    display: contents!important;
+}
+
+.topnav-menu{
+    display: flex;
+align-items: center;
+height: 100%;
+}
+
+.incoming-body .tab{
+    display: none;
+}
+
+
+
+
+
+       /* responsive media */
+
+
+       @media only screen and (width: 360px){
+       .neww #server-datatable_paginate{
+       position: absolute;
+       bottom: 0vh;
+       width: 94.3%;
+       }
+    }
+
+@media only screen and (max-width:345px){
+    #purchase-orderearchExport{
+        margin-top:3%; 
+        margin-bottom: 5%;
+    }
+   
+}
+
+@media only screen and (max-width:375px){
+    .purachaseorder-bttn #server-datatable_paginate {
+        width: 89.3%!important;
+    }
+    .purchaseorder-style #basic-datatable_wrapper .row:nth-child(3) {
+        width: 95% !important;
+    }
+    .purachaseorder-bttn thead{
+        top: 0px;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 5% !important;
+        width: 97% !important;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: -1% !important;
+        width: 95% !important;
+    }
+    .outgoingpayment-style #basic-datatable_wrapper .row:nth-child(3){
+        width: 91% !important;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:280px) and (max-width:430px){
+    .neww #server-datatable_paginate {
+        bottom:0vh!important;
+    }
+    .incoming-button #server-datatable_paginate {
+        bottom: 0vh !important;
+    }
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 8dvh !important;
+        width:97%!important;
+    }
+    .order-detail-back {
+        bottom: 30px!important;
+    }
+    .newStyle, .error {
+        top: 12%!important;
+    }
+    .tableMStyle .row:nth-child(2) thead {
+        top: 49px;
+    }
+    .tableMStyle .btn-danger,
+    .table-m .btn-danger{
+        display: block;
+        width: 94%;
+        margin-top: 5%;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(1){
+        z-index: 1;
+        width: 97.3%;
+    }
+    .addUser {
+        top: -64px!important;
+    }
+    div.dataTables_wrapper div.dataTables_filter input {
+        width: 47%!important;
+    }
+
+
+}
+
+@media only screen and (width:375px){
+.balance-reportstyle #server-datatable_wrapper div:nth-child(2), .marble-pagination #server-datatable_wrapper div:nth-child(2),
+.neww #server-datatable_wrapper div:nth-child(2),
+.incoming-button #server-datatable_wrapper div:nth-child(2) {
+    top: -16vh!important;
+}
+.incoming-button thead, .neww thead {
+    position: sticky;
+    background: #6658dd;
+    color: #FFF;
+    top: 30px;
+}
+table.dataTable {
+    margin-bottom: 70px !important;
+}
+
+}
+@media only screen and (min-width:412px) and (max-width:430px){
+    .balance-reportstyle #server-datatable_wrapper div:nth-child(2), .marble-pagination #server-datatable_wrapper div:nth-child(2),
+    .neww #server-datatable_wrapper div:nth-child(2),
+    .incoming-button #server-datatable_wrapper div:nth-child(2) {
+        top: -7vh!important;
+    }
+    .neww #server-datatable_paginate,
+    .incoming-button #server-datatable_paginate {
+        bottom: 0vh !important;
+    }
+    table.dataTable {
+        margin-bottom: 90px !important;
+    }
+    .incoming-button .dt-buttons {
+        position: relative!important;
+        z-index: 2;
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+
+    .body-style, .adjust {
+        height: calc(90vh - 100px) !important;
+    }
+
+
+    }
+
+    @media only screen and (width:390px){
+    .neww #server-datatable_paginate {
+        bottom: 3.8vh !important;
+    }
+    table.dataTable {
+        margin-bottom: 59px !important;
+    }
+}
+
+
+
+@media only screen and (width:540px){
+.sales-ordr-h #server-datatable_wrapper div:nth-child(2) {
+    top: -10vh;
+}
+.balance-reportstyle #server-datatable_wrapper div:nth-child(2), .marble-pagination #server-datatable_wrapper div:nth-child(2),
+.neww #server-datatable_wrapper div:nth-child(2),
+.incoming-button #server-datatable_wrapper div:nth-child(2) {
+    top: -9vh!important;
+}
+
+.salesMStyle div:nth-child(2) tfoot{
+    background: transparent;
+}
+.neww #server-datatable_paginate {
+    bottom: 0vh!important;
+    width: 90.3%!important;
+    margin-left: -2%!important;
+}
+.purachaseorder-bttn #server-datatable_paginate {
+    bottom: 0vh!important;
+    width: 93.3%!important;
+    margin-left: -2%!important;
+}
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .outgoingpayment-style #basic-datatable_paginate ul {
+        float: none;
+        justify-content: center;
+    }
+    .outgoingpayment-style #basic-datatable_wrapper .row:nth-child(3){
+        text-align: center;
+        width: 93% !important;
+    }
+
+
+    .purchaseOrder #Paris thead{
+        top: -16px;
+    }
+    .purchaseOrder .row:nth-child(2) thead {
+        top: 90px;
+    }
+    div.dataTables_wrapper div.dataTables_filter input {
+        margin-left: .5em;
+        display: inline;
+        width: 64%;
+    }
+    #server-datatable_filter {
+        top: 16px;
+        margin-left: -0px;
+        margin-top:0px;
+    }
+    div.dataTables_wrapper div.dataTables_length{
+        text-align:left;
+    }
+    div.dataTables_wrapper div.dataTables_filter {
+        text-align: left!important;
+    }
+    .addUser {
+        position: absolute;
+        right: 7px;
+        top: -64px;
+    }
+    .card {
+        margin-top: 18px;
+    }
+    table.dataTable {
+        clear: both;
+        margin-top: 39px !important;
+    }
+    .md-pt{
+        padding-top: 10%;
+    }
+    #basic-datatable_wrapper .row:nth-child(3), #server-datatable_wrapper .row:nth-child(3), .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+        padding: 1.5% 2% 4% 2%!important;
+        margin-left: -8%!important;
+        width: 98%!important;
+        bottom: 0%!important;
+    }
+    .body-style, .adjust{
+        height: calc(86vh - 100px) !important;
+    }
+
+    .purchaseorder-style, .invoiceMstyle, 
+    .purchaseinvoice-style{
+        height: calc(86vh - 100px) !important;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 1%;
+        margin-left: -5% !important;
+        z-index: 2;
+        padding: 1.5% 2% 1% 2% !important;
+        width: 95% !important;
+    }
+
+    .purchaseorder-style {
+        padding-bottom: 30% !important;
+    }
+
+
+
+    .tableMStyle .dataTables_filter {
+        position: absolute;
+        left: 177px;
+        margin-top: -0% !important;
+    }
+
+    .addUser {
+        position: absolute;
+        right: 2px;
+        top: -49px;
+        z-index: 1;
+    }
+    .newbutton{
+        margin-top:5%!important;
+    }
+    .productMStyle .row:nth-child(2) thead {
+        top: 79px;
+    }
+
+    .productDetailshead {
+        top:-15px;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        width: 96.5%;
+    }
+    .button-height{
+        margin-top:3.5%;
+        margin-bottom:3.5%;
+    }
+    .edit-product-btn{
+        margin-bottom: 3%;
+        margin-top:3%;
+    }
+    .create-incomebtn{
+        margin-bottom:30%;
+    }
+
+
+/*  */
+.card{
+    margin-top:16px;
+}
+    .table-spcl .dataTables_filter {
+        margin-top: -52px !important;
+    }
+    .table-spcl .row:nth-child(2) thead {
+        top: 53px !important;
+    }
+
+    .table-spcl .addUser {
+        top: -62px;
+    }
+    .table-spcl #basic-datatable_paginate ul {
+        float: none;
+    }
+    .table-spcl #basic-datatable_wrapper .row:nth-child(1) {
+        width: 90.3%;
+        z-index: 1;
+    }
+    .table-spcl table.dataTable {
+        clear: both;
+        margin-top: 27px !important;
+    }
+    .add-user-btn {
+        margin-top:8%!important;
+    }
+    .neww #server-datatable_paginate{
+        position: absolute;
+        bottom: 2.8vh;
+        width: 89.3%;
+        padding-bottom: 2%;
+        padding-top: 1%;
+        background: #ffffff;
+        z-index: 2;
+        }
+
+        .purachaseorder-bttn #server-datatable_paginate{
+            position: absolute;
+            bottom: 0vh;
+            width: 91.3%;
+            padding-bottom: 2%;
+            padding-top: 1%;
+            background: #ffffff;
+            z-index: 2;
+            }
+
+
+        .hidden-tab .widget-rounded-circle{
+            display:none;
+        }
+        .adjust, .purchaseinvoice-style, .invoiceMstyle
+         {
+            padding-bottom: 30% !important;
+        }
+.adjust #basic-datatable_paginate ul,
+.purchaseinvoice-style #basic-datatable_paginate ul{
+    float: none;
+}
+.create-order-btnstyle, .edit-salesbtnstyle,
+.copy-salesbutton{
+    margin-bottom: 15vh;
+    margin-top: 3%;
+    }
+
+    #discount_amount{
+        margin-top:2%;
+    }
+    
+
+    .neww .dtr-data a:nth-child(3){
+        display:block;
+        margin-top:2%;
+    }
+
+/* .invoiceMstyle {
+    height: calc(95vh - 100px) !important;
+    padding-bottom: 30% !important;
+} */
+.invoiceMstyle #basic-datatable_paginate ul ,
+.purchaseorder-style #basic-datatable_paginate ul 
+{
+    float: none;
+}
+.invoiceMstyle .row:nth-child(2) thead,
+.adjust .row:nth-child(2) thead{
+    top: 90px !important;
+}
+
+.pdf{
+    margin-top:2%!important;
+}
+.invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 0dvh !important;
+    width:95%!important;
+    margin-left: -4% !important;
+    padding: 1.5% 2% 0% 2% !important;
+
+}
+
+.incoming-button #server-datatable_paginate {
+    position: absolute;
+    bottom:0vh;
+    width: 89.3%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    background: #ffffff;
+    z-index: 2;
+}
+.income-style #basic-datatable_wrapper .row:nth-child(3){
+    bottom: 0vh !important;
+    text-align: center;
+    z-index: 2;
+    width: 93% !important;
+    margin-left: -6% !important;
+}
+.outgoingpayment-style #basic-datatable_wrapper .row:nth-child(3){
+    bottom: -0.1vh !important;
+    text-align: center;
+    z-index: 2;
+    width: 93% !important;
+    margin-left: -6% !important;
+}
+.income-style #basic-datatable_paginate ul{
+    float:none;
+     justify-content: center;
+}
+
+.income-paybuttn{
+ padding-bottom: 45%;
+}
+
+.dt-bootstrap4 .row:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+}
+.order-detail-back {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* bottom: 54px; */
+    bottom:61px;
+}
+.v-p div:nth-child(2) tfoot{
+    bottom: 79px;
+    right: 26px;
+    width: 90%;
+}
+.table-spcl3 table.dataTable {
+    margin-bottom: 160px !important;
+}
+.salesMStyle #server-datatable_wrapper div:nth-child(1) {
+    position: relative;
+}
+.invoice-report-style div:nth-child(2) tfoot{
+    background: transparent;
+}
+
+.newStyle, .error{
+    width: 90%;
+    top: 16%;
+}
+.sales-ordr-h #server-datatable_wrapper div:nth-child(2){
+    top: -16vh;
+}
+.incoming-button .dt-buttons{
+    position: relative!important;
+        z-index: 2;
+        margin-top: 14px;
+        margin-bottom: 0px;
+}
+.incoming-button thead, .neww thead {
+    top: 28px;
+}
+
+.balance-reportstyle #server-datatable_wrapper div:nth-child(2),
+.marble-pagination #server-datatable_wrapper div:nth-child(2),
+.neww #server-datatable_wrapper div:nth-child(2),
+.incoming-button #server-datatable_wrapper div:nth-child(2){
+    top: -101px;
+}
+
+.neww .dt-buttons{
+    position: relative;
+    padding-top:7%;
+}
+.tableMStyle #server-datatable_wrapper .row:nth-child(1){
+    z-index: 1;
+}
+.tableMStyle .row:nth-child(2) thead{
+    top: 54px;
+}
+.adjust #basic-datatable_wrapper .row:nth-child(3){
+    z-index: 2;
+}
+
+.purachaseorder-bttn .dt-buttons{
+    position: relative;
+        padding-top: 12%;
+}
+
+.purchaseorder-style #basic-datatable_wrapper .row:nth-child(3){
+    margin-left: -5% !important;
+        z-index: 2;
+}
+
+
+
+
+}
+
+@media (max-width: 767.98px) {
+    .dataTables_paginate ul {
+        text-align: center;
+        display: block;
+        margin: 0rem 0 0!important;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .outgoingpayment-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh!important;
+    }
+    .purchaseOrder #Paris thead{
+        top: -16px;
+    }
+  
+    .purchaseOrder .row:nth-child(2) thead {
+        top: 50px;
+    }
+    #server-datatable_wrapper .row{
+        display:flex;
+        gap: 10px;
+        width:107%;
+    }
+
+    #server-datatable_wrapper .col-sm-12{
+        flex:1;
+    }
+    li.paginate_button.previous, li.paginate_button.next {
+        display: inline-block;
+        font-size: 14px;
+    }
+    div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+        text-align: left;
+    }
+    .tableMStyle .row:nth-child(2) thead{
+        top:47px;
+    }
+    #server-datatable_wrapper .row:nth-child(3){
+        bottom: 0%;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(1), .tableMStyle #basic-datatable_wrapper .row:nth-child(1) {
+        z-index: 1;
+    }
+    .addUser {
+        z-index: 2;
+    }
+    #server-datatable_wrapper .row:first-child{
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      #server-datatable_wrapper .row:first-child .col-sm-12{
+    flex:1;
+    }
+    .productDetailshead {
+        top:-15px;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        width: 96.5%;
+    }
+    .button-height{
+        margin-top:3.5%;
+        margin-bottom:3.5%;
+    }
+    .edit-product-btn{
+        margin-bottom: 3%;
+        margin-top:3%;
+    }
+    .table-spcl .dataTables_filter {
+        position: absolute;
+        left: 200px;
+        top: 18px;
+    }
+
+    .table-spcl table.dataTable {
+        clear: both;
+        margin-top: 20px !important;
+    }
+    .add-user-btn {
+        margin-top:4% !important;
+    }
+
+.neww #server-datatable_paginate, .purachaseorder-bttn #server-datatable_paginate{
+    position: absolute;
+    bottom: 0vh;
+    width: 94.3%;
+        padding-bottom: 2%;
+        background: #ffffff;
+        z-index: 2;
+    }
+
+    .hidden-tab .widget-rounded-circle{
+        display:none;
+    }
+.adjust{
+    height: calc(98vh - 100px) !important;
+    padding-bottom: 7%!important;
+}
+.purchaseorder-style{
+    height: calc(98vh - 100px) !important;
+    padding-bottom: 7%!important;
+}
+
+.purchaseOrder #basic-datatable_wrapper .row:nth-child(1){
+    top: -18px;
+    z-index: 1;
+}
+
+
+
+.dt-bootstrap4 .row:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+}
+.dt-bootstrap4 .row .col-sm-12{
+    flex: 1;
+}
+.create-order-btnstyle, .edit-salesbtnstyle,
+.copy-salesbutton{
+    margin-bottom: 15vh;
+    margin-top: 3%;
+    }
+    .invoiceMstyle, .purchaseinvoice-style {
+        height: calc(98vh - 100px) !important;
+        padding-bottom: 4% !important;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3.5dvh !important;
+        width: 96%;
+        z-index: 2;
+    }
+
+
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3.5dvh !important;
+        width:96%;
+        z-index: 2;
+    }
+    .pdf{
+        margin-top:1%!important;
+    }
+    .incoming-button #server-datatable_paginate {
+        position: absolute;
+        bottom: -1vh;
+        width: 94.3%;
+        padding-bottom: 2%;
+        background: #ffffff;
+        z-index: 2;
+    }
+    .incomingPayment #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 11vh;
+        width: 96%;
+        z-index: 2;
+    }
+    .income-paybuttn {
+        margin-top: 2%;
+        margin-bottom: 15%;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+        width: 94%;
+    }
+    .v-p div:nth-child(2) tfoot{
+        width: 93%;
+        bottom: 40px;
+    }
+    .v-p #server-datatable_wrapper #server-datatable_paginate {
+        width: 94.8%;
+    }
+    .order-detail-back {
+        left: 24px;
+    }
+
+    .invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+        width: 95%;
+        z-index: 2;
+    }
+    .invoice-report-style div:nth-child(2) tfoot{
+        background: transparent;
+    }
+    .balance-reportstyle div:nth-child(2) tfoot{
+        background: transparent;
+    }
+    .balance-reportstyle #server-datatable_wrapper #server-datatable_paginate{
+        width: 91%;
+    }
+    .newStyle{
+        top: 10%;
+    }
+    .error {
+        top: 10%;
+    }
+
+    .sales-ordr-h #server-datatable_wrapper div:nth-child(1){
+        position:relative;
+       
+       }
+       .sales-ordr-h #server-datatable_wrapper div:nth-child(2){
+        top: -19vh;
+       }
+       .neww .dt-buttons{
+        position:relative;
+        padding-top: 3%;
+       }
+
+       .neww #server-datatable_length,
+       .incoming-button #server-datatable_length{
+            position: sticky;
+            top: -22%;
+            background: #ffffff;
+            padding: 1%;
+            z-index: 1;
+        }
+        .incoming-button #server-datatable_length{
+            top: -52px;
+        }
+        .incoming-button .dt-buttons{
+            position:relative;
+        padding-top: 3%;
+        margin-bottom: 0px;
+        z-index: 2;
+        }
+        .incoming-button thead{
+            top: 29px;
+        }
+        .v-p #server-datatable_wrapper div:nth-child(1),
+        .invoice-report-style #server-datatable_wrapper div:nth-child(1),
+        .balance-reportstyle #server-datatable_wrapper div:nth-child(1){
+            position:relative;
+        padding-bottom: 3%;
+        margin-bottom: 0px;
+        z-index: 2;
+        }
+        .v-p #server-datatable_wrapper div:nth-child(2),
+        .invoice-report-style #server-datatable_wrapper div:nth-child(2),
+        .balance-reportstyle #server-datatable_wrapper div:nth-child(2),
+        .incoming-button #server-datatable_wrapper div:nth-child(2),
+        .neww #server-datatable_wrapper div:nth-child(2){
+            top: -62px;
+        }
+        .purachaseorder-bttn #server-datatable_wrapper div:nth-child(2)
+        {
+            top: -80px;
+        position: sticky;
+        background: #FFF;
+        z-index: 1;
+        }
+
+
+
+
+        .balanceDetailMstyle div:nth-child(2) tfoot tr th:nth-child(3) {
+            text-align: left;
+            padding-right: 0px;
+        }
+        .incoming-button thead, .neww thead {
+            top: 32px;
+        }
+        .balance-reportStyle #server-datatable_wrapper div:nth-child(1){
+            position: relative;
+        }
+        .balance-reportStyle #server-datatable_wrapper div:nth-child(2){
+            top: -62px;
+        }
+        
+        .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+            position: absolute;
+            width: 93%;
+            z-index: 2;
+            bottom: 0%;
+        }
+        .balance-reportStyle div:nth-child(2) tfoot{
+            width: 91%;
+        }
+
+        .purachaseorder-bttn .dt-buttons{
+            position: relative;
+            padding-top: 8%;
+        }
+
+        .purachaseorder-bttn thead{
+            top: 45px;
+        }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .purchaseOrder #Paris thead{
+        top: -16px;
+    }
+
+    .purchaseOrder .row:nth-child(2) thead {
+        top: 52px;
+        z-index: 1;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 7.5dvh !important;
+    }
+
+    #server-datatable_wrapper .row:nth-child(3){
+        bottom: 0%;
+        width: 97.5%;
+    }
+    body {
+        overflow-x: hidden;
+        padding-bottom: 0px!important;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        bottom: clamp(0px, 0vh, 0px);
+        width: 97%;
+    }
+
+    .body-style, .adjust, .purchaseorder-style {
+        height: calc(90vh - 100px) !important;
+    }
+
+
+
+    .productMStyle #server-datatable_wrapper .row:nth-child(1){
+        top: -17px;
+    }
+    .productMStyle .row:nth-child(2) thead{
+        top:46px;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh;
+        width: 97%;
+    }
+    .productDetailshead {
+        top:-15px;
+    }
+    .table-m #server-datatable_wrapper .row {
+        width: 103%;
+    }
+    .button-height {
+        margin-top: 0%;
+        margin-bottom: 3.5%;
+    }
+   
+    .edit-product-btn{
+        margin-bottom: 0%;
+        margin-top:3%;
+    }
+    .table-spcl .dataTables_filter {
+        position: absolute;
+        left: 200px;
+        top: 20px;
+    }
+    .add-user-btn {
+        margin-top:4% !important;
+    }
+
+    .hidden-tab .widget-rounded-circle{
+        display:none;
+    }
+    .basic-datatable_wrapper .row:nth-child(2){
+        display:block;
+    }
+
+
+    .adjust{
+        /* height: calc(96vh - 100px) !important; */
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-bottom: 4% !important;
+    }
+    .create-order-btnstyle, .edit-salesbtnstyle, .copy-salesbutton{
+        margin-bottom: 20vh;
+        margin-top: 3%;
+        }
+        .incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+            width: 97%;
+            bottom: 3vh;
+        }    
+        .income-paybuttn {
+            margin-top: 2%;
+            margin-bottom: 21%;
+        }
+        .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+            bottom: 0%;
+            width: 96%;
+        } 
+        .v-p div:nth-child(2) tfoot {
+            width: 93%;
+            bottom: 50px;
+        }  
+        .invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+
+            z-index: 2;
+        }
+        .newStyle, .error {
+            top: 9%;
+        }
+        .sales-ordr-h #server-datatable_wrapper div:nth-child(2) {
+            top: -5vh;
+        }
+
+
+        .incoming-button .dt-buttons {
+            top: 0%;
+        }
+        .incoming-button #server-datatable_length {
+            top: 0%;
+            position: sticky;
+        }
+        .neww #server-datatable_length {
+            top: -10%;
+            position: sticky;
+            background: #FFF;
+            padding: 1.5%;
+            z-index: 1;
+            margin-top: -18px;
+        
+        }
+        .neww .dt-buttons{
+            top: -6%;
+            z-index: 2;
+            margin-top: -8px;
+        }
+        .purachaseorder-bttn .dt-buttons {
+            padding-top: 0%;
+            top:0%;
+        }
+
+
+
+
+        .neww thead {
+            top: 3vh;
+        }
+        .v-p #server-datatable_wrapper div:nth-child(2), .invoice-report-style #server-datatable_wrapper div:nth-child(2), .balance-reportstyle #server-datatable_wrapper div:nth-child(2) {
+            top: -22px;
+        }
+        .balance-reportstyle #server-datatable_wrapper #server-datatable_paginate {
+            width: 95%;
+        }
+        #basic-datatable_wrapper .row:nth-child(3), #server-datatable_wrapper .row:nth-child(3), .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+            bottom: 0%;
+        }
+
+        .v-p #server-datatable_wrapper div:nth-child(2), 
+        .invoice-report-style #server-datatable_wrapper div:nth-child(2), 
+        .balance-reportstyle #server-datatable_wrapper div:nth-child(2),
+         .incoming-button #server-datatable_wrapper div:nth-child(2),
+          .neww #server-datatable_wrapper div:nth-child(2)
+           {
+            top: -25px;
+        }
+        .purachaseorder-bttn #server-datatable_wrapper div:nth-child(2){
+            margin-top: 20px;
+            top: -17px;
+            padding: 14px 14px 10px 14px;
+        }
+        .purachaseorder-bttn thead {
+            top: 3vh; 
+        }
+
+
+
+        .neww #server-datatable_paginate,
+    .adjust #basic-datatable_wrapper .row:nth-child(3),
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3),
+    .incoming-button #server-datatable_paginate,
+    .marble-pagination #server-datatable_wrapper #server-datatable_paginate,
+    .incomingPayment #basic-datatable_wrapper .row:nth-child(3){
+        z-index: 2;
+    }
+    .addUser {
+        z-index:10;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(1){
+        z-index: 1;
+    }
+    .tableMStyle table{
+        z-index:0;
+    }
+
+    .salesMStyle thead {
+        top: 30px;
+    }
+    .balance-reportStyle #server-datatable_wrapper div:nth-child(2) {
+        top: -23px;
+    }
+
+
+}
+
+@media only screen and (width: 720px) {
+.incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 7vh;
+}
+.sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+    width: 95%;
+}
+.newStyle{
+    top: 7%;
+}
+.error {
+    top: 7%;
+}
+.sales-ordr-h #server-datatable_wrapper div:nth-child(2) {
+    top: -13vh;
+}
+.balanceDetailMstyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    text-align: left;
+    padding-right: 56px;
+}
+}
+
+
+
+
+@media only screen and (width: 768px) {
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 8.5dvh !important;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3){
+        bottom: -0.5vh;
+        width: 100%;
+        left: 12px;
+    }
+    .neww #server-datatable_paginate {
+        position: absolute;
+        bottom: -0.5vh;
+        width:100%;
+        left: 0px;
+        padding-bottom: 1%;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+        bottom: -0.5vh;
+        width: 100%;
+        left: 12px;
+    }
+    .incoming-button #server-datatable_paginate {
+        position: absolute;
+        bottom: -0.5vh;
+        padding-bottom: 1%;
+        width: 100%;
+        left: 0px;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 4%;
+        width: 96%;
+    }
+    .order-detail-back {
+        position: absolute;
+        bottom: 7px;
+        left: 12px;
+        z-index: 2;
+    }
+    .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+        bottom: -0.5%;
+        padding: 1%;
+    }
+    /* .v-p div:nth-child(2) tfoot {
+        width: 93%;
+        bottom: 81px;
+    } */
+    .invoice-report-style div:nth-child(2) tfoot{
+        background: #FFF;
+        bottom: 45px;
+        width: 95%;
+    }   
+    .newStyle{
+        top: 3.5%;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        bottom: 50px;
+        width: 95%;
+    }
+    .balanceDetailMstyle div:nth-child(2) tfoot tr th:nth-child(3) {
+        text-align: left;
+        padding-right: 63px;
+    }
+    .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+        position: absolute;
+        width: 100%;
+        left: 0px;;
+    }
+    .error {
+        top: 3.5%;
+    }
+
+}
+@media only screen and (width: 820px) {
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 8.5dvh !important;
+    }
+.table-m #server-datatable_wrapper .row:nth-child(3) {
+    bottom: 0vh;
+}
+.tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+    bottom: clamp(0px, 0vh, 0px);
+    width: 97%;
+}
+.adjust #basic-datatable_wrapper .row:nth-child(3){
+    bottom: 0%;
+}
+.invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 8.5dvh !important;
+}
+.sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 5%;
+    width: 96%;
+}
+.v-p div:nth-child(2) tfoot tr {
+
+    /* margin-top: -15%; */
+}
+.marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+}
+.order-detail-back {
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+}
+.newStyle{
+    top: 3vh;
+}
+.error {
+    top:3vh;
+}
+
+.balance-reportStyle div:nth-child(2) tfoot {
+    bottom: 41px;
+}
+.salesMStyle div:nth-child(2) tfoot tr{
+    padding-right: 0px;
+}
+
+
+}
+
+@media only screen and (width: 844px) {
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3.5dvh !important;
+    }
+.table-m #server-datatable_wrapper .row:nth-child(3) {
+    bottom: 0vh;
+    width: 97%;
+}
+
+.tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+    bottom: clamp(0px, 0vh, 40px);
+    width: 97.3%;
+}
+.v-p div:nth-child(2) tfoot {
+    width: 93%;
+    bottom: 48px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 28px;
+}
+
+.balance-reportStyle div:nth-child(2) tfoot {
+    bottom: 52px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 26px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right: 12px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3){
+    padding-right: 88px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 0px;
+}
+
+.balance-reportStyle #server-datatable_wrapper #server-datatable_paginate {
+    width: 93%;
+}
+.balance-reportStyle div:nth-child(2) tfoot {
+    width: 94%;
+}
+.balance-reportStyle #server-datatable_wrapper div:nth-child(2) {
+    top: -18px;
+}
+.balance-reportstyle div:nth-child(2) tfoot {
+    background:#FFF;
+}
+.balance-reportstyle #server-datatable_wrapper #server-datatable_paginate {
+    z-index: 2;
+}
+
+}
+
+@media only screen and (width: 853px) {
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 9.5dvh !important;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3) {
+        margin-bottom: 0%!important;
+    }
+
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh!important;
+    }
+
+
+
+    .v-p div:nth-child(2) tfoot {
+        width: 93.5%;
+        bottom: 50px;
+    }
+    .order-detail-back {
+        position: absolute;
+        bottom: 8px!important;
+    }
+    .balance-reportstyle div:nth-child(2) tfoot {
+        bottom: 46px;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 27px;
+    }
+    .balance-reportstyle #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%!important;
+    }
+    .newStyle{
+        top:3%;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        bottom: 50px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+        padding-right: 26px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right:0px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3){
+        padding-right:94px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+        padding-right: 0px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr {
+        padding-right: 32px;
+    }
+    .error {
+        top: 2.8vh;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3),
+    .table-spcl #basic-datatable_wrapper .row:nth-child(3),
+    .neww #server-datatable_paginate, .incoming-button #server-datatable_paginate, .invoice-report-style #server-datatable_wrapper #server-datatable_paginate{
+        bottom: 0vh !important;
+    }
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 9dvh !important;
+    }
+    .salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 0px;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 0px!important;
+    }
+    .purachaseorder-bttn .dt-buttons {
+        margin-top: -10px;
+    }
+    
+
+}
+
+
+@media only screen and (min-width:853px) and (max-width:960px) {
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        /* bottom: 6vh; */
+        /* bottom:clamp(10px, 2vh, 40px); */
+        bottom: 0vh;
+        width: 97.5%;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh;
+        /* bottom:clamp(65px, 0vh, 40px)!important; */
+        width: 97%;
+        padding-bottom: 1%;
+        z-index: 1;
+    }
+    
+
+    .table-spcl #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 0%;
+    }
+    .table-spcl .row:nth-child(2) thead {
+        top: 53px !important;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3) {
+        margin-bottom: 0%;
+        width: 97%;
+    }
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 4dvh;
+    }
+
+    .incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+        width: 97.5%;
+    }
+    .v-p div:nth-child(2) tfoot tr {
+        /* margin-top: -17%; */
+    }
+.marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+    }
+    .order-detail-back {
+        position: absolute;
+        bottom: 6px;
+        z-index: 2;
+    }
+    .invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+    }
+
+    .invoice-report-style  #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+    }
+    .invoice-report-style div:nth-child(2) tfoot {
+        background:#FFF;
+        z-index: 2;
+    }
+    .salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 79px;
+    }
+
+    .balance-reportstyle #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+        width: 94.5%;
+        z-index: 2;
+    }
+    .balance-reportstyle div:nth-child(2) tfoot {
+        background: #FFF;
+        width: 94%;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+        text-align: left;
+        padding-right: 1px;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+        text-align: left;
+        padding-right: 57px;
+    }
+
+
+}
+
+@media only screen and (min-width: 882px) and (max-width:896px)  {
+    .purchaseOrder .row:nth-child(2) thead {
+        top: 48px;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3.5dvh !important;
+    }
+
+    .adjust #basic-datatable_wrapper .row:nth-child(3) {
+        margin-bottom: 0%;
+        width: 97%;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+        width: 95%;
+    }
+
+    .v-p div:nth-child(2) tfoot {
+        display: none;
+    }
+    .balance-reportstyle div:nth-child(2) tfoot {
+       display:none;
+    }
+
+
+
+    /* .table-spcl3 table.dataTable {
+        margin-bottom: 100px !important;
+    } */
+
+    .invoice-report-style div:nth-child(2) tfoot {
+        position: absolute;
+        bottom: 40px!important;
+        width: 95%;
+        background: #FFF;
+    }
+    .salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 68px;
+    }
+    .invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+        bottom: -2%;
+        width: 95%!important;
+        z-index: 2;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        width: 96%;
+    }
+    .table-spcl3 table.dataTable {
+        margin-bottom: 117px !important;
+    }
+    .newStyle{
+        top:9vh;
+    }
+    .error {
+        top: 9.5vh;
+    }
+    .marble-pagination #server-datatable_wrapper #server-datatable_paginate{
+        width: 93%;
+    }
+    .marble-pagination div:nth-child(2) tfoot {
+        bottom: 67px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+        padding-right: 26px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right:34px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3){
+        padding-right: 101px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+        padding-right: 0px;
+    }
+    .balance-reportStyle #server-datatable_wrapper div:nth-child(2) {
+        top: -19px;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate,
+    .balance-reportstyle #server-datatable_wrapper #server-datatable_paginate 
+    {
+        width: 96%;
+    }
+
+    .purachaseorder-bttn thead{
+        top: -13px;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (width: 912px) {
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3), .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 9.5dvh !important;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh!important;
+        width: 97%;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh;
+        width: 97.5%;
+    }
+    .neww #server-datatable_paginate {
+        position: absolute;
+        bottom: 0vh;
+        width: 95.3%;
+        padding-bottom: 1%;
+    }
+    .incoming-button #server-datatable_paginate {
+        position: absolute;
+        bottom: 0vh;
+        width: 95.3%;
+        padding-bottom: 2%;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+        bottom:0%;
+    }
+    .order-detail-back {
+        position: absolute;
+        bottom: 14px;
+    }
+    .v-p div:nth-child(2) tfoot tr {
+        /* margin-top: -19%; */
+    }
+ .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+    }
+    .v-p div:nth-child(2) tfoot {
+        width: 96%;
+        bottom: 60px;
+    }
+    .newStyle{
+        top: 2.8vh;
+    }
+    .error {
+        top: 2.8vh;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        bottom: 66px;
+        width: 96%;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+        padding-right: 98px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right: 50px;
+    }
+
+
+
+}
+
+@media only screen and (width: 914px) {
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3.5dvh !important;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh;
+        width: 97.5%;
+    }
+    .productDetailshead {
+        top:-15px;
+    }
+    .table-spcl .row:nth-child(2) thead {
+        top: 54px !important;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+        margin-bottom: 0%;
+        width: 97%;
+    }
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3dvh !important;
+    }
+    .incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+        position: absolute;
+        width: 97%;
+        bottom: 6vh;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+        width: 95%;
+    }
+    .marble-pagination #server-datatable_wrapper #server-datatable_paginate{
+        width: 95%;
+    }
+    .v-p div:nth-child(2) tfoot {
+        width: 93.5%;
+        bottom: 39px;
+        /* background: #e8e8e8; */
+    }
+.order-detail-back {
+    left: 25px;
+}
+.table-spcl3 table.dataTable {
+    margin-bottom: 100px !important;
+}
+
+.invoice-report-style div:nth-child(2) tfoot{
+    bottom: 52px;
+    width: 94%;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 60px;
+}
+.salesMStyle #server-datatable_wrapper div:nth-child(1){
+    z-index: 2;
+}
+
+.invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+    bottom: -0.5%;
+    width: 95%;
+    z-index: 2;
+}
+
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 21px;
+}
+
+.balance-reportstyle #server-datatable_wrapper #server-datatable_paginate{
+    z-index: 2;
+}
+.balance-reportstyle #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+}
+.balance-reportstyle div:nth-child(2) tfoot {
+    bottom: 52px;
+    width: 94%;
+    z-index: 1;
+    background: #FFF;
+    z-index: 2;
+}
+
+.newStyle{
+    width: 65%;
+    top: 8vh;
+}
+.error {
+    top: 9vh;
+}
+
+.neww thead {
+    top: 7vh;
+}
+.v-p div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 0px!important;
+}
+
+.balance-reportStyle #server-datatable_wrapper #server-datatable_paginate{
+    bottom: 0%;
+}
+
+.balance-reportStyle div:nth-child(2) tfoot {
+    bottom: 50px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 26px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right:46px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3){
+    padding-right: 105px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 0px;
+}
+.neww #server-datatable_paginate,
+    .adjust #basic-datatable_wrapper .row:nth-child(3),
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3),
+    .incoming-button #server-datatable_paginate,
+    .marble-pagination #server-datatable_wrapper #server-datatable_paginate{
+        z-index: 2;
+    }
+    .balance-reportStyle #server-datatable_wrapper div:nth-child(2) {
+        top: -20px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        width: 93.5%;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right: 15px;
+    }
+
+
+
+}
+
+@media only screen and (width: 915px){
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 5.5dvh !important;
+    }
+    .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%!important;
+        width: 94.5%;
+    }
+    .v-p div:nth-child(2) tfoot {
+        width: 93%;
+        bottom: 44px;
+    }
+    .salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 79px;
+    }
+    .invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0% !important;
+        z-index: 2!important;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 19px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+        padding-right: 26px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right:15px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3){
+        padding-right: 107px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+        padding-right: 0px;
+    }
+    .neww #server-datatable_paginate,
+    .adjust #basic-datatable_wrapper .row:nth-child(3),
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3),
+    .incoming-button #server-datatable_paginate,
+    .marble-pagination #server-datatable_wrapper #server-datatable_paginate{
+        z-index: 2;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        width: 93.5%;
+    }
+    .balance-reportStyle #server-datatable_wrapper div:nth-child(2) {
+        top: -20px;
+    }
+    .neww .dt-buttons {
+        top: -8%;
+        z-index: 2;
+        margin-top: -10px;
+    }
+    
+    .error {
+        top: 8%;
+    }
+
+
+}
+
+
+
+@media only screen and (width: 932px) {
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 4.5dvh !important;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+    margin-bottom: -1%;
+    z-index: 2;
+    }
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3),
+    .incoming-button #server-datatable_paginate,
+    .incomingPayment #basic-datatable_wrapper .row:nth-child(3){
+        z-index: 2;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: -1%;
+        z-index: 2;
+    }
+
+    .invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+        width: 94%!important;
+    }
+
+    .v-p div:nth-child(2) tfoot {
+        display: none;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        bottom: 67px;
+    }.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+        padding-right: 26px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right: 22px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3){
+        padding-right: 111px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+        padding-right: 0px;
+    }
+
+    .neww #server-datatable_paginate{
+        z-index: 2;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        width: 94%;
+    }
+
+   
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 2vh;
+        width: 97%;
+    }
+    .btn-info2 {
+        padding: 0.45rem .87rem !important;
+    }
+    .add-user-btn {
+        margin-top:2% !important;
+    }
+    .widget-rounded-circle .row .col-lg-6:first-child{
+        display:none;
+    }
+    .hidden-tab .widget-rounded-circle{
+        display:block;
+    }
+    .adjust {
+        padding-bottom: 20% !important;
+    }
+    .income-paybuttn {
+        margin-top: 2%;
+        margin-bottom: 15%;
+    }
+    .balance-reportstyle div:nth-child(2) tfoot {
+        background: transparent;
+    }
+
+
+}
+
+@media only screen and (width: 1024px) {
+    .tableMStyle #server-datatable_wrapper .row:nth-child(1){
+        width:100%!important;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: clamp(0px, 0vh, 40px)!important;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        bottom: clamp(76px, 10vh, 40px);
+        width: 98.5%!important;
+    }
+    .adjust {
+        padding-bottom: 23% !important;
+    }
+
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+        width: 96%;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+        padding-right: 22px;
+    }
+    .balance-reportstyle div:nth-child(2) tfoot {
+        bottom: 54px;
+    }
+    .invoice-report-style div:nth-child(2) tfoot {
+        background: #ffffff;
+        bottom: 76px;
+    }
+    .newStyle {
+        top: 5.5vh!important;
+    }
+    /* .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 188px !important;
+        margin-bottom:0px!important;
+    } */
+    .btn-info2 {
+        padding: 0.2rem 0.399rem !important;
+    }
+
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right: 49px!important;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+        padding-right: 112px;
+    }
+     .error {
+        top: 4.5vh !important;
+    }
+    .purchaseorder-style #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 13.5vh!important;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 9.5vh!important;
+    }
+
+
+
+    }
+
+
+
+@media only screen and (min-width: 1024px) {
+
+.salesinvoice_ .dt-responsive tfoot{
+position:sticky;
+     width:100%;
+    bottom: 32px; 
+    background:#FFF;
+    z-index: 3;
+}
+.invoice-report-style tr td:nth-child(4){
+display: -webkit-box;
+  -webkit-line-clamp: 2;          
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;           
+  white-space: normal; 
+
+
+}
+.salesinvoice_ tr td:nth-child(2)
+{
+  -webkit-line-clamp: 2;           
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;                 
+  white-space: normal; 
+}
+
+
+
+
+    /*  */
+    .create-order-btnstyle, .edit-salesbtnstyle, .copy-salesbutton {
+        margin-bottom: 12vh;
+        margin-top: 3%;
+    }
+    .incoming-button .dt-buttons {
+        position: relative;
+        padding-top: 2%;
+    }
+
+    .purchaseorder-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 13.5vh;
+        padding-bottom: 2%;
+    }
+
+
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 2.5vh!important;
+        padding-bottom: 2%;
+    }
+
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+    bottom:clamp(0px, 0vh, 0px);
+    width: 97.5%;
+}
+.table-spcl #basic-datatable_wrapper .row:nth-child(3){
+    bottom: 1%!important;
+}
+.table-m #server-datatable_wrapper .row:nth-child(3) {
+    bottom: 1vh;
+    width: 97.3%;
+    padding-bottom: 2%;
+}
+.tableMStyle .row:nth-child(2) thead {
+    top: 50px;
+}
+
+
+/* .btn-info2 {
+    padding: 0.45rem 1.15rem !important;
+} */
+.table-spcl .row:nth-child(2) thead {
+    top: 53px !important;
+}
+/* .marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+    width: 95%;
+} */
+.neww #server-datatable_paginate{
+    position: absolute;
+    /* width: 72%; */
+    bottom: 0vh;
+    width: 95.3%;
+    padding-bottom: 1%;
+    }
+.purachaseorder-bttn #server-datatable_paginate{
+    position: absolute;
+    /* width: 72%; */
+    bottom: 0vh;
+    width: 95.3%;
+    padding-bottom: 1%;
+    }
+
+    .widget-rounded-circle .row .col-lg-6:first-child{
+        display:none;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+        margin-bottom: 0%;
+    }
+
+    .adjust #basic-datatable_wrapper .row:nth-child(1) {
+        padding: 14px 14px 0px 14px;
+    }
+
+    .create-order-btnstyle{
+    margin-bottom: 11%;
+    }
+
+.adjust #basic-datatable_wrapper .row:nth-child(3){
+        /* bottom: 13.5vh; */
+        bottom: 9.5vh;
+    padding-bottom: 2%;
+}
+
+.profile-dropdown {
+    z-index: 3;
+}
+
+
+.invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 22.5vh !important;
+    /* margin-bottom: 14%; */
+}
+.invoiceMstyle {
+    padding-bottom: 22% !important;
+}
+
+.incoming-button #server-datatable_paginate {
+    position: absolute;
+    bottom: 0.5vh;
+    padding-bottom: 1%;
+    width: 95.5%;
+}
+
+.incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+    width: 97%;
+    bottom: 0vh;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.dataTables_length .form-label {
+    display: flex!important;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+    bottom: -1%;
+    width: 95%;
+}
+
+.order-detail-back {
+    position: absolute;
+    bottom: 18px;
+    z-index: 2;
+}
+
+.v-p div:nth-child(2) tfoot {
+    width: 93%;
+    bottom: 65px;
+}
+
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 80px;
+}
+.invoice-report-style #server-datatable_wrapper #server-datatable_paginate{
+    width: 95%;
+    bottom:1%;
+}
+.invoice-report-style div:nth-child(2) tfoot {
+    background: transparent;
+    bottom: 76px;
+}
+
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 35px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 62px;
+}
+
+.newStyle, .error {
+    top: 5.5vh;
+    left: 55%;
+}
+
+.error {
+    top: 5.5vh !important;
+}
+.v-p div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 0px!important;
+}
+
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 26px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right: 90px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3){
+    padding-right: 22px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 0px;
+}
+.cancelbtn{
+    margin-top: 3%!important;
+    margin-left: 0px!important;
+}
+
+.neww .dt-buttons {
+    margin-top: -5px;
+}
+
+.h-view{
+    margin-top: 3%!important; 
+}
+.body-style, .invoiceMstyle, .purchaseinvoice-style {
+    height: calc(89vh - 100px) !important;
+}
+.adjust {
+    height: calc(86vh - 100px) !important;
+}
+
+.incoming-body{
+    height: calc(84vh - 100px) !important;
+}
+.neww thead {
+    top: 5vh;
+}
+.purachaseorder-bttn thead {
+    top: 5vh;
+}
+
+.marble-pagination #server-datatable_wrapper #server-datatable_paginate{
+    bottom: 0.5%;
+}
+
+.balance-reportStyle #server-datatable_wrapper #server-datatable_paginate{
+    bottom: 0%!important;
+}
+
+.balance-reportStyle {
+    height: calc(86vh - 100px) !important;
+}
+
+.balance-reportStyle div:nth-child(2) tfoot {
+    width: 96%;
+}
+
+.purachaseorder-bttn .dt-buttons {
+    padding-top: 0%;
+    top:0%;
+}
+.purchaseorder-style {
+    padding-bottom: 14% !important;
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (width: 1180px) {
+    .error {
+        top: 4.5vh !important;
+        left: 54%;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3vh !important;
+    }
+}
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3vh !important;
+        padding-bottom: 2%;
+    
+    }
+
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0%;
+        width: 97.5%;
+    }
+    .body-style {
+        height: calc(92vh - 100px) !important;
+    }
+
+
+
+    .table-m #server-datatable tbody tr:last-child {
+        margin-bottom: 50px;
+        height: 70px;
+    }
+
+    .table-spcl #basic-datatable_wrapper .row:nth-child(3){
+       bottom:1%;
+    }
+    /* .marble-pagination #server-datatable_wrapper #server-datatable_paginate{
+        bottom: 2%;
+        width: 96%;
+    } */
+
+   .neww #server-datatable_paginate{
+    position: absolute;
+    /* width: 72%; */
+    bottom: 0vh;
+    width: 96.5%;
+    padding-bottom: 1%;
+    }
+    .purachaseorder-bttn #server-datatable_paginate{
+    position: absolute;
+    /* width: 72%; */
+    bottom: 0vh;
+    width: 96.5%;
+    padding-bottom: 1%;
+    }
+    
+
+
+    #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 2px;
+    }
+    .widget-rounded-circle .row .col-lg-6:first-child{
+        display:block;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3) {
+        margin-bottom: 3%;
+        width: 97%;
+    }
+
+    .create-order-btnstyle{
+        margin-bottom: 8%;
+        margin-top: 3%;
+        }
+
+.edit-salesbtnstyle , .copy-salesbutton{
+    margin-bottom: 11vh;
+    margin-top: 3%;
+}
+.marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+}
+
+
+.adjust #basic-datatable_wrapper .row:nth-child(3){
+    bottom: 18vh;
+padding-bottom: 2%;
+}
+.invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 0.5vh !important;
+    padding-bottom: 5%;
+    margin-bottom: 14%;
+}
+.invoiceMstyle {
+    padding-bottom: 25% !important;
+}
+
+.adjust{
+    height: calc(96vh - 100px) !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 18% !important;
+}
+.sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+    width: 95%;
+}
+.v-p #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+}
+.v-p div:nth-child(2) tfoot {
+    width: 93%;
+    bottom: 46px;
+}
+
+.invoice-report-style div:nth-child(2) tfoot{
+    bottom: 50px;
+    background: #FFF;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 66px;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 83px;
+}
+.invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+}
+
+.balance-reportstyle div:nth-child(2) tfoot{
+    bottom: 46px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 21px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 58px;
+}
+.newStyle{
+    left: 54%;
+    top:4vh;
+}
+.error {
+    top:8vh;
+}
+.incoming-button #server-datatable_paginate {
+    bottom: 0vh;
+}
+.incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 1.5vh;
+}
+.outgoingpayment-style #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: -3.5vh;
+}
+
+
+
+.order-detail-back {
+    bottom: 5px;
+    z-index: 2;
+}
+
+.balance-reportStyle div:nth-child(2) tfoot {
+    bottom: 52px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 17px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right: 47px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 114px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 0px;
+}
+
+
+.balance-reportStyle div:nth-child(2) tfoot tr {
+    float: right;
+    border-style: none;
+    padding-right: 56px;
+}
+.cancelbtn{
+    /* margin-top:0px!important; */
+    margin-left: 10px!important;
+}
+.table-m #server-datatable_wrapper .row:nth-child(3) {
+    bottom: 0vh;
+}
+
+.purachaseorder-bttn .dt-buttons{
+    padding-top: 0%;
+        top: 0%; 
+}
+
+.purchaseorder-style {
+    padding-bottom: 11.5% !important;
+}
+
+
+}
+@media only screen and (width: 1280px) {
+    .outgoingpayment-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: -3.5vh;
+    }
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 0.5vh !important;
+        padding-bottom: 5%;
+        margin-bottom: 11%;
+    }
+    .newStyle, .error {
+        top: 4.5vh!important;
+        left: 55%;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 14vh;
+        padding-bottom: 2%;
+    }
+    .purchaseorder-style #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 11.5vh;
+        padding-bottom: 2%;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 2vh !important;
+        padding-bottom: 2%;
+    }
+
+    #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 0px;
+    }
+    .purchaseorder-style {
+        padding-bottom: 14% !important;
+    }
+    .purchaseinvoice-style {
+        padding-bottom: 19% !important;
+    }
+
+    }
+@media only screen and (min-width: 1300px) {
+    
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3vh !important;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0%;
+        width: 97.5%;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh;
+        width: 97.3%;
+        padding-bottom: 2%;
+    }
+    .btn-info2 {
+        padding: 0.45rem 1.2rem !important;
+    }
+    .neww #server-datatable_paginate {
+        position: absolute;
+        bottom: 0vh;
+        width: 96.3%;
+        padding-bottom: 2%;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3) {
+        margin-bottom: 0%;
+        width: 98%;
+    }
+    .purchaseorder-style #basic-datatable_wrapper .row:nth-child(3) {
+        margin-bottom: 0%;
+        width: 98%;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 20vh;
+    padding-bottom: 2%;
+    }
+    .adjust{
+        padding-bottom: 15% !important;
+    }
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 1vh !important;
+        padding-bottom: 1%;
+    }
+    .incoming-button #server-datatable_paginate {
+        position: absolute;
+        bottom: 0vh;
+        width: 96.5%;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0%;
+        width: 95%;
+    }
+    .invoice-report-style div:nth-child(2) tfoot{
+        bottom: 50px;
+        background:#FFF;
+    }
+    /* .salesorder-bttn div:nth-child(2) tfoot{
+        bottom: 46px;
+        background:#FFF;
+        z-index: 1;
+    } */
+
+/* 
+    .salesorder-bttn div:nth-child(2) tfoot tr{
+        float: right;
+    } */
+    /* .salesorder-bttn div:nth-child(2) tfoot tr th:nth-child(3) {
+        padding-right: 229px;
+    } */
+    .salesorder-bttn div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 16px;
+    }
+.salesorder-bttn .dtr-control{
+    z-index: 0;
+}
+
+
+
+    .salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+        padding-right: 66px;
+    }
+    .salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 94px;
+    }
+.balance-reportstyle div:nth-child(2) tfoot{
+    bottom: 66px;
+    background: #FFF;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(4) {
+    padding-right: 41px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 31px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 74px;
+}
+
+.v-p div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 0px!important;
+}
+.v-p div:nth-child(2) tfoot {
+    width: 95%;
+}
+
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 41px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right: 80px;
+}
+.error {
+    top:8vh;
+}
+.balance-reportStyle div:nth-child(2) tfoot {
+    bottom: 50px;
+    width: 97%;
+}
+.order-detail-back {
+    bottom: 2%;
+}
+.balance-reportStyle #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 5%;
+}
+.invoiceMstyle {
+    padding-bottom: 15% !important;
+}
+.income-paybuttn {
+    margin-bottom: 9%;
+}
+.incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 1vh;
+}
+.v-p #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+}
+.v-p div:nth-child(2) tfoot {
+    bottom: 47px;
+}
+.invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%!important;
+}
+.newStyle, .error {
+    top: 5.5vh!important;
+    left: 55%;
+}
+    
+}
+
+@media only screen and (min-width: 1360px) {
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3vh !important;
+
+    }
+   .purchaseinvoice-style {
+        padding-bottom: 18% !important;
+    }
+
+    .newStyle {
+        left: 54%;
+        top: 6vh;
+    }
+    .error {
+        top:8vh;
+    }
+
+
+    .table-spcl4 .row:nth-child(2) thead {
+        top: 48px !important;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+        padding-right: 118px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right: 89px;
+    }
+    .balance-reportstyle div:nth-child(2) tfoot {
+        bottom: 48px;
+    }
+    .balance-reportStyle div:nth-child(2) tfoot {
+        bottom: 54px;
+        width: 97%;
+    }
+    .balance-reportStyle #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 2%;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(4){
+        padding-right: 67px;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 63px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+        padding-right: 53px;
+    }
+    .balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+        padding-right: 85px;
+    }
+    .body-style {
+        height: calc(95vh - 100px) !important;
+    }
+    .neww .dt-buttons {
+        margin-top: -17px;
+    }
+    .invoiceMstyle {
+        padding-bottom: 14% !important;
+    }
+    .incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3.5vh;
+    }
+    .income-paybuttn {
+        margin-bottom: 9%;
+    }
+    .v-p #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 0.5%;
+    }
+    .order-detail-back {
+        bottom: 3%;
+    }
+    .v-p div:nth-child(2) tfoot {
+        bottom: 50px;
+    }
+    .salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+        padding-right: 80px;
+    }
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(1) {
+        padding-right: 64px;
+    }
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+        padding-right: 68px;
+    }
+    .balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+        padding-right: 56px;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh;
+        padding-bottom: 1%;
+    }
+
+    .table-spcl #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 0% !important;
+    }
+    .neww #server-datatable_paginate {
+        padding-bottom: 1%;
+    }
+    /* .cancelbtn{
+        margin-top:0px!important;
+    } */
+
+
+}
+
+
+@media only screen and (width:1180px){
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 18.5vh !important;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 1366px) {
+    .outgoingpayment-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3vh !important;
+    }
+
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3vh !important;
+        padding-bottom: 2%;
+    }
+    .tableMStyle #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh;
+        width: 97.5%;
+    }
+    .table-m #server-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh;
+        width: 97.3%;
+        padding-bottom: 2%;
+    }
+    .btn-info2 {
+        padding: 0.45rem 1.43rem !important;
+    }
+    .neww #server-datatable_paginate {
+        position: absolute;
+        bottom: 0vh;
+        width: 96.3%;
+        padding-bottom: 2%;
+    }
+    .adjust #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 17vh;
+    padding-bottom: 2%;
+    }
+    .purchaseorder-style #basic-datatable_wrapper .row:nth-child(3){
+        bottom: 11vh;
+    padding-bottom: 2%;
+    }
+
+    
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 17.5vh !important;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    .incoming-button #server-datatable_paginate {
+        position: absolute;
+        bottom: 1vh;
+        width: 96.5%;
+    }
+    .incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 8vh;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 1%;
+        width: 96%;
+    }
+    .v-p #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 1%;
+    }
+    .order-detail-back {
+        bottom:23px;
+    }
+    .invoice-report-style div:nth-child(2) tfoot{
+        bottom: 52px;
+        background:#FFF;
+    }
+
+    .balance-reportstyle div:nth-child(2) tfoot {
+        bottom: 56px;
+    }
+    /* .balance-reportstyle #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 4%;
+    } */
+    .newStyle{
+        top: 3.5vh;
+    }
+    .error {
+        top:8vh;
+    }
+    .v-p div:nth-child(2) tfoot {
+        width: 95%;
+        bottom: 61px;
+    }
+.balance-reportStyle #server-datatable_wrapper #server-datatable_paginate{
+    bottom: 1%;
+}
+
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 55px;
+}
+
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right: 62px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 116px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(2){
+    padding-right: 0px;
+}
+.balance-reportStyle div:nth-child(2) tfoot {
+    bottom: 57px;
+}
+
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 79px;
+}
+/* .cancelbtn {
+    margin-top: 0% !important;
+} */
+.newStyle, .error {
+    left: 55%;
+    top: 5.5vh !important;
+}
+
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(4) {
+    padding-right: 47px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 48px;
+}
+.marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 1%;
+}
+.invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 1.5% !important;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(4) {
+    padding-right: 7px;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 83px;
+}
+
+.purachaseorder-bttn #server-datatable_paginate {
+    bottom: 2vh;
+    width: 96.5%;
+    padding-bottom: 2%;
+}
+
+}
+
+
+@media only screen and (min-width: 1368px) {
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3vh !important;
+        padding-bottom: 2%;
+    }
+    .purchaseinvoice-style {
+        padding-bottom:18% !important;
+    }
+
+
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 14.5vh !important;
+        padding-bottom: 4%;
+        width: 98%;
+    }
+    .sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+        bottom: 3%;
+        width: 98%;
+    }
+    .v-p div:nth-child(2) tfoot tr {
+        /* margin-top: -9%; */
+    }
+.marble-pagination #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%; 
+    width: 97%;
+    }
+
+.invoice-report-style div:nth-child(2) tfoot{
+    bottom: 80px;
+}
+
+
+.balance-reportstyle div:nth-child(2) tfoot {
+    bottom: 45px;
+}
+.invoice-report-style div:nth-child(2) tfoot {
+    bottom: 46px;
+    background:#FFF;
+}
+.newStyle {
+    top: 3.8vh;
+}
+.error {
+    top:8vh;
+}
+
+.order-detail-back {
+    bottom: 13px;
+}
+.balance-reportStyle div:nth-child(2) tfoot {
+    bottom: 50px;
+}
+.balance-reportStyle #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+}
+.adjust #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 18vh;
+    padding-bottom: 2%;
+}
+.purchaseorder-style #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 12vh;
+    padding-bottom: 2%;
+}
+.purchaseorder-style{
+    padding-bottom: 16% !important;
+}
+
+
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 47px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right: 88px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 124px;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 89px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 54px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 69px;
+}
+.body-style {
+    height: calc(95vh - 100px) !important;
+}
+
+.purachaseorder-bttn .dt-buttons {
+    top: 1px;
+    margin-top: -16px;
+    padding-top: 1%;
+}
+.neww #server-datatable_paginate {
+    bottom: 2vh;
+}
+.purachaseorder-bttn #server-datatable_paginate {
+    bottom: 3vh;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1530px) {
+    .outgoingpayment-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 0vh!important;
+        padding-bottom: 0%;
+    }
+
+
+
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 3vh!important;
+        padding-bottom: 2%;
+    }
+.table-m #server-datatable_wrapper .row:nth-child(3) {
+    bottom: 0%;
+    padding-bottom: 1%;
+}
+.table-spcl #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 0%;
+}
+.neww #server-datatable_paginate, .purachaseorder-bttn #server-datatable_paginate {
+    bottom: 0vh;
+}
+.adjust #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 14vh;
+}
+.invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 11.5vh !important;
+    padding-bottom: 0%;
+}
+.incoming-button #server-datatable_paginate {
+    bottom: 0vh;
+}
+.incomingPayment #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 1vh;
+    left: 67px;
+}
+.sales-ordr-h #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+    width: 97%;
+}
+.v-p div:nth-child(2) tfoot {
+    bottom: 70px;
+}
+.v-p #server-datatable_wrapper #server-datatable_paginate,
+.invoice-report-style #server-datatable_wrapper #server-datatable_paginate, .balance-reportstyle #server-datatable_wrapper #server-datatable_paginate, 
+.balance-reportStyle #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0%;
+    width: 97%;
+}
+.order-detail-back {
+    z-index: 2;
+    bottom:0vh;
+}
+.balance-reportStyle div:nth-child(2) tfoot {
+    bottom: 80px;
+}
+.body-style {
+    height: calc(88vh - 100px) !important;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 75px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right: 107px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 159px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 60px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 50px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(4) {
+    padding-right: 132px;
+}
+.newStyle, .error {
+    left: 55%;
+    top: 1.8vh !important;
+}
+.invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0% !important;
+}
+
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(4) {
+    padding-right: 23px;
+}   
+ .salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 100px;
+}
+
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 105px;
+}
+.adjust{ height: calc(88vh - 100px) !important;}
+.adjust #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 10vh;
+}
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+.adjust #basic-datatable_wrapper .row:nth-child(3) {
+    bottom: 15vh;
+}
+.neww #server-datatable_paginate {
+    bottom: 0vh;
+    padding-bottom: 1%;
+}
+.purachaseorder-bttn #server-datatable_paginate{
+    bottom: 0vh;
+    padding-bottom: 1%;
+}
+
+
+
+
+.invoice-report-style #server-datatable_wrapper #server-datatable_paginate {
+    bottom: 0% !important;
+}
+.invoice-report-style div:nth-child(2) tfoot {
+    bottom: 66px;
+    background: #FFF;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(4) {
+    padding-right: 42px;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 145px;
+}
+.salesRegisterStyle div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 165px;
+}
+.balance-reportstyle div:nth-child(2) tfoot {
+    bottom: 61px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(4) {
+    padding-right: 184px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 113px;
+}
+.balanceMreport div:nth-child(2) tfoot tr th:nth-child(2) {
+    padding-right: 99px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(6) {
+    padding-right: 110px;
+}
+.balance-reportStyle #server-datatable tfoot tr th:nth-child(5) {
+    padding-right: 154px;
+}
+.balance-reportStyle div:nth-child(2) tfoot tr th:nth-child(3) {
+    padding-right: 240px;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width:2000px){
+    .invoiceMstyle #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 13.5vh !important;
+        padding-bottom: 0%;
+    }
+    .purchaseinvoice-style #basic-datatable_wrapper .row:nth-child(3) {
+        bottom: 5vh!important;
+        padding-bottom: 0%;
+    }
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+    body {
+        overflow-x: hidden;
+        padding-bottom: 0px!important;
+    }
+
+      .logo-box{  
+        width: 70px !important;
+        padding-right: 0 !important;
+        display: flex;
+        align-items: center;
+        padding-left: 7px;
+      }
+}

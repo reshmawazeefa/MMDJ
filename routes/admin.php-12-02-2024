@@ -1,0 +1,106 @@
+<?php
+
+use App\Http\Controllers\Admin\CustomerController;
+use App\Http\Controllers\Admin\PartnerController;
+use App\Http\Controllers\Admin\SettingsController;
+use App\Http\Controllers\Admin\QuotationController;
+use App\Http\Controllers\Admin\QuotationListController;
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\RoleController;
+use App\Http\Controllers\Admin\WarehouseController;
+use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\CategoryAttributeController;
+use App\Http\Controllers\CronController;
+use App\Http\Controllers\Admin\PDFController;
+use App\Http\Controllers\Admin\CustomQuotationController;
+use Illuminate\Support\Facades\Route;
+
+Route::group(['prefix' => 'admin'], function () {    
+
+    Route::get('cache', function() {
+        $status = Artisan::call('optimize:clear');
+        return '<h1>Cache cleared</h1>';
+    });
+    Route::group(['middleware' => ['auth', 'permission:role-list']], function () {
+        Route::resource('roles', RoleController::class);
+    });
+    Route::group(['middleware' => ['auth']], function () {
+        Route::post('code',[CustomerController::class, 'generateBarcodeNumber']);
+        Route::resource('customers', CustomerController::class);
+        Route::post('customer/status', [CustomerController::class, 'status']);
+        Route::resource('warehouses', WarehouseController::class);
+        Route::resource('categories', CategoryController::class);
+        Route::resource('cat_attributes', CategoryAttributeController::class);
+        Route::resource('partners', PartnerController::class);
+        Route::get('change/password', [SettingsController::class, 'change_password']);
+        Route::post('change/password', [SettingsController::class, 'update_password']);
+        Route::get('custom_quote', [CustomQuotationController::class, 'create']);
+        Route::post('custom_quotation/insert', [CustomQuotationController::class, 'insert']);
+        Route::get('custom_quotations', [CustomQuotationController::class, 'index']);
+        Route::get('custom_quotations/{id}', [CustomQuotationController::class, 'show']);
+        Route::get('custom_quotations/{id}/edit', [CustomQuotationController::class, 'edit']);
+        Route::post('custom_quotations/{id}/update', [CustomQuotationController::class, 'update']);
+        Route::post('custom_quotations/close/{id}', [CustomQuotationController::class, 'close']);
+        Route::any('custom_quotations/approve/{id}', [CustomQuotationController::class, 'approve']);
+        Route::any('custom_quotations/confirm/{id}', [CustomQuotationController::class, 'confirm']);
+        Route::get('custom_quotations/{id}/sendapproval', [CustomQuotationController::class, 'send_for_approval']);
+        Route::get('custom_approvals/{status}', [CustomQuotationController::class, 'approval_list']);
+        Route::get('quote', [QuotationController::class, 'create']);
+        Route::post('quotation/insert', [QuotationController::class, 'insert']);
+        Route::get('quotations', [QuotationListController::class, 'index']);
+        Route::get('approvals/{status}', [QuotationListController::class, 'approval_list']);
+        Route::get('approval/list', [QuotationListController::class, 'approval_list']);
+        Route::post('quotations/close/{id}', [QuotationListController::class, 'close']);
+        Route::any('quotations/approve/{id}', [QuotationListController::class, 'approve']);
+        Route::any('quotations/confirm/{id}', [QuotationListController::class, 'confirm']);
+        Route::get('quotations/{id}', [QuotationListController::class, 'show']);
+        Route::get('quotations/{id}/edit', [QuotationController::class, 'edit']);
+        Route::post('quotations/{id}/update', [QuotationController::class, 'update']);
+        Route::post('ajax/customers', [QuotationController::class, 'get_customers']);
+        Route::post('ajax/users', [QuotationController::class, 'get_users']);
+        Route::post('ajax/partners/{type}', [QuotationController::class, 'get_partners']);
+        Route::post('ajax/products', [QuotationController::class, 'get_products']);
+        Route::post('ajax/product_stock', [QuotationController::class, 'get_product_stock']);
+        Route::post('ajax/stock', [QuotationController::class, 'get_warehouses']);
+        Route::resource('users', UserController::class);
+        Route::get('products', [ProductController::class,'index']);
+        Route::post('products', [ProductController::class,'index']);
+        Route::get('products/{id}', [ProductController::class,'show']);
+        Route::post('product/image', [ProductController::class,'upload_product_image']);
+        Route::post('ajax/categories', [ProductController::class, 'get_categories']);
+        Route::post('ajax/subcategories', [ProductController::class, 'get_subcategories']);
+        Route::post('ajax/types', [ProductController::class, 'get_types']);
+        Route::post('ajax/brands', [ProductController::class, 'get_brands']);
+        Route::post('ajax/sizes', [ProductController::class, 'get_sizes']);
+        Route::post('ajax/colors', [ProductController::class, 'get_colors']);
+        Route::post('ajax/finish', [ProductController::class, 'get_finish']);
+        Route::get('pdf/{id}', [PDFController::class, 'pdfview']);
+        Route::get('custom_pdf/{id}', [PDFController::class, 'custom_pdfview']);
+        Route::get('quotations/{id}/sendapproval', [QuotationListController::class, 'send_for_approval']);
+        Route::post('quotations/excel', [QuotationListController::class, 'download_excel']);
+    });
+});
+Route::get('admin/barcode', function () {
+    return view('admin.barcode');
+});
+Route::get('cron/category', [CronController::class,'category']);
+Route::get('cron/categoryAttribute', [CronController::class,'categoryAttribute']);
+Route::get('cron/product', [CronController::class,'product']);
+Route::get('cron/warehouse', [CronController::class,'warehouse']);
+Route::get('cron/prodPrice', [CronController::class,'prodPrice']);
+Route::get('cron/prodStock', [CronController::class,'prodStock']);
+Route::get('test/quote', [TestController::class,'create']);
+Route::get('test/{id}/edit', [TestController::class,'edit']);
+Route::get('test/print/{id}', [TestController::class,'print']);
+Route::get('admin/{any}', function () {
+    return view('errors.404');
+});
+
+Route::get('/clear-cache', function () {
+    Artisan::call('optimize:clear');
+    Artisan::call('config:cache');    
+    Artisan::call('view:clear');
+    return "Cache is cleared";
+});
+Route::get('graphs-pdf', [PDFController::class, 'graphPdf']);

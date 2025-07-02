@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./resources/js/pages/form-wizard.init.js":
+/*!************************************************!*\
+  !*** ./resources/js/pages/form-wizard.init.js ***!
+  \************************************************/
+/***/ (() => {
+
+eval("/*\nTemplate Name: Ubold - Responsive Bootstrap 4 Admin Dashboard\nAuthor: CoderThemes\nWebsite: https://coderthemes.com/\nContact: support@coderthemes.com\nFile: Form wizard init js\n*/\n$(document).ready(function () {\n  \"use strict\";\n\n  $('#basicwizard').bootstrapWizard();\n  $('#progressbarwizard').bootstrapWizard({\n    onTabShow: function onTabShow(tab, navigation, index) {\n      var $total = navigation.find('li').length;\n      var $current = index + 1;\n      var $percent = $current / $total * 100;\n      $('#progressbarwizard').find('.bar').css({\n        width: $percent + '%'\n      });\n    }\n  });\n  $('#btnwizard').bootstrapWizard({\n    'nextSelector': '.button-next',\n    'previousSelector': '.button-previous',\n    'firstSelector': '.button-first',\n    'lastSelector': '.button-last'\n  });\n  $('#rootwizard').bootstrapWizard({\n    'onNext': function onNext(tab, navigation, index) {\n      var form = $($(tab).data(\"targetForm\"));\n\n      if (form) {\n        form.addClass('was-validated');\n\n        if (form[0].checkValidity() === false) {\n          event.preventDefault();\n          event.stopPropagation();\n          return false;\n        }\n      }\n    }\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly91Ym9sZC1sYXJhdmVsLy4vcmVzb3VyY2VzL2pzL3BhZ2VzL2Zvcm0td2l6YXJkLmluaXQuanM/ZDIxMCJdLCJuYW1lcyI6WyIkIiwiZG9jdW1lbnQiLCJyZWFkeSIsImJvb3RzdHJhcFdpemFyZCIsIm9uVGFiU2hvdyIsInRhYiIsIm5hdmlnYXRpb24iLCJpbmRleCIsIiR0b3RhbCIsImZpbmQiLCJsZW5ndGgiLCIkY3VycmVudCIsIiRwZXJjZW50IiwiY3NzIiwid2lkdGgiLCJmb3JtIiwiZGF0YSIsImFkZENsYXNzIiwiY2hlY2tWYWxpZGl0eSIsImV2ZW50IiwicHJldmVudERlZmF1bHQiLCJzdG9wUHJvcGFnYXRpb24iXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBRUFBLENBQUMsQ0FBQ0MsUUFBRCxDQUFELENBQVlDLEtBQVosQ0FBa0IsWUFBWTtBQUMxQjs7QUFFQUYsRUFBQUEsQ0FBQyxDQUFDLGNBQUQsQ0FBRCxDQUFrQkcsZUFBbEI7QUFFQUgsRUFBQUEsQ0FBQyxDQUFDLG9CQUFELENBQUQsQ0FBd0JHLGVBQXhCLENBQXdDO0FBQ3BDQyxJQUFBQSxTQUFTLEVBQUUsbUJBQVVDLEdBQVYsRUFBZUMsVUFBZixFQUEyQkMsS0FBM0IsRUFBa0M7QUFDekMsVUFBSUMsTUFBTSxHQUFHRixVQUFVLENBQUNHLElBQVgsQ0FBZ0IsSUFBaEIsRUFBc0JDLE1BQW5DO0FBQ0EsVUFBSUMsUUFBUSxHQUFHSixLQUFLLEdBQUcsQ0FBdkI7QUFDQSxVQUFJSyxRQUFRLEdBQUlELFFBQVEsR0FBR0gsTUFBWixHQUFzQixHQUFyQztBQUNBUixNQUFBQSxDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QlMsSUFBeEIsQ0FBNkIsTUFBN0IsRUFBcUNJLEdBQXJDLENBQXlDO0FBQUVDLFFBQUFBLEtBQUssRUFBRUYsUUFBUSxHQUFHO0FBQXBCLE9BQXpDO0FBQ0g7QUFObUMsR0FBeEM7QUFTQVosRUFBQUEsQ0FBQyxDQUFDLFlBQUQsQ0FBRCxDQUFnQkcsZUFBaEIsQ0FBZ0M7QUFBRSxvQkFBZ0IsY0FBbEI7QUFBa0Msd0JBQW9CLGtCQUF0RDtBQUEwRSxxQkFBaUIsZUFBM0Y7QUFBNEcsb0JBQWdCO0FBQTVILEdBQWhDO0FBRUFILEVBQUFBLENBQUMsQ0FBQyxhQUFELENBQUQsQ0FBaUJHLGVBQWpCLENBQWlDO0FBQzdCLGNBQVUsZ0JBQVVFLEdBQVYsRUFBZUMsVUFBZixFQUEyQkMsS0FBM0IsRUFBa0M7QUFDeEMsVUFBSVEsSUFBSSxHQUFHZixDQUFDLENBQUNBLENBQUMsQ0FBQ0ssR0FBRCxDQUFELENBQU9XLElBQVAsQ0FBWSxZQUFaLENBQUQsQ0FBWjs7QUFDQSxVQUFJRCxJQUFKLEVBQVU7QUFDTkEsUUFBQUEsSUFBSSxDQUFDRSxRQUFMLENBQWMsZUFBZDs7QUFDQSxZQUFJRixJQUFJLENBQUMsQ0FBRCxDQUFKLENBQVFHLGFBQVIsT0FBNEIsS0FBaEMsRUFBdUM7QUFDbkNDLFVBQUFBLEtBQUssQ0FBQ0MsY0FBTjtBQUNBRCxVQUFBQSxLQUFLLENBQUNFLGVBQU47QUFDQSxpQkFBTyxLQUFQO0FBQ0g7QUFDSjtBQUNKO0FBWDRCLEdBQWpDO0FBYUgsQ0E3QkQiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuVGVtcGxhdGUgTmFtZTogVWJvbGQgLSBSZXNwb25zaXZlIEJvb3RzdHJhcCA0IEFkbWluIERhc2hib2FyZFxuQXV0aG9yOiBDb2RlclRoZW1lc1xuV2Vic2l0ZTogaHR0cHM6Ly9jb2RlcnRoZW1lcy5jb20vXG5Db250YWN0OiBzdXBwb3J0QGNvZGVydGhlbWVzLmNvbVxuRmlsZTogRm9ybSB3aXphcmQgaW5pdCBqc1xuKi9cblxuJChkb2N1bWVudCkucmVhZHkoZnVuY3Rpb24gKCkge1xuICAgIFwidXNlIHN0cmljdFwiO1xuXG4gICAgJCgnI2Jhc2ljd2l6YXJkJykuYm9vdHN0cmFwV2l6YXJkKCk7XG5cbiAgICAkKCcjcHJvZ3Jlc3NiYXJ3aXphcmQnKS5ib290c3RyYXBXaXphcmQoe1xuICAgICAgICBvblRhYlNob3c6IGZ1bmN0aW9uICh0YWIsIG5hdmlnYXRpb24sIGluZGV4KSB7XG4gICAgICAgICAgICB2YXIgJHRvdGFsID0gbmF2aWdhdGlvbi5maW5kKCdsaScpLmxlbmd0aDtcbiAgICAgICAgICAgIHZhciAkY3VycmVudCA9IGluZGV4ICsgMTtcbiAgICAgICAgICAgIHZhciAkcGVyY2VudCA9ICgkY3VycmVudCAvICR0b3RhbCkgKiAxMDA7XG4gICAgICAgICAgICAkKCcjcHJvZ3Jlc3NiYXJ3aXphcmQnKS5maW5kKCcuYmFyJykuY3NzKHsgd2lkdGg6ICRwZXJjZW50ICsgJyUnIH0pO1xuICAgICAgICB9XG4gICAgfSk7XG5cbiAgICAkKCcjYnRud2l6YXJkJykuYm9vdHN0cmFwV2l6YXJkKHsgJ25leHRTZWxlY3Rvcic6ICcuYnV0dG9uLW5leHQnLCAncHJldmlvdXNTZWxlY3Rvcic6ICcuYnV0dG9uLXByZXZpb3VzJywgJ2ZpcnN0U2VsZWN0b3InOiAnLmJ1dHRvbi1maXJzdCcsICdsYXN0U2VsZWN0b3InOiAnLmJ1dHRvbi1sYXN0JyB9KTtcblxuICAgICQoJyNyb290d2l6YXJkJykuYm9vdHN0cmFwV2l6YXJkKHtcbiAgICAgICAgJ29uTmV4dCc6IGZ1bmN0aW9uICh0YWIsIG5hdmlnYXRpb24sIGluZGV4KSB7XG4gICAgICAgICAgICB2YXIgZm9ybSA9ICQoJCh0YWIpLmRhdGEoXCJ0YXJnZXRGb3JtXCIpKTtcbiAgICAgICAgICAgIGlmIChmb3JtKSB7XG4gICAgICAgICAgICAgICAgZm9ybS5hZGRDbGFzcygnd2FzLXZhbGlkYXRlZCcpO1xuICAgICAgICAgICAgICAgIGlmIChmb3JtWzBdLmNoZWNrVmFsaWRpdHkoKSA9PT0gZmFsc2UpIHtcbiAgICAgICAgICAgICAgICAgICAgZXZlbnQucHJldmVudERlZmF1bHQoKTtcbiAgICAgICAgICAgICAgICAgICAgZXZlbnQuc3RvcFByb3BhZ2F0aW9uKCk7XG4gICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICB9KTtcbn0pOyJdLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvcGFnZXMvZm9ybS13aXphcmQuaW5pdC5qcy5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/pages/form-wizard.init.js\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./resources/js/pages/form-wizard.init.js"]();
+/******/ 	
+/******/ })()
+;
